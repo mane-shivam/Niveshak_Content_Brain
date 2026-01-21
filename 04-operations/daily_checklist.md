@@ -113,29 +113,59 @@ Be ruthless. 30-50% kill rate is healthy.
 
 **PRE-DRAFT**: Review last post's post-mortem notes (if any), fix ≥1 weakness before starting
 
-**Engine**: Chief Strategist (ChatGPT 5.2)
+**Engine**: Apex Synthesizer (Engine 04)
+
+**Files to Open**:
+- `02-engines/engine_05_sunday_brief.md` (Sunday Mode)
+- `02-engines/engine_04_apex_synthesizer.md` (Reference)
 
 **Prompt**:
 ```
-You are Niveshak's Chief Strategist. Create Sunday Brief.
+ROLE: Head of Editorial and Chief Equity Strategist at Niveshak (Apex Synthesizer).
+
+You are the final synthesis layer before publication.
 
 TOPIC: [Selected from Idea Kill Zone]
-
 FRAMEWORK: [Specify—teaching new or applying existing]
 
 ATTACHED:
 - niveshak_bible.md
 - frameworks_index.md
+- post_index.md
 
-REQUIREMENTS:
-- Signature metric (one killer number anchors the post)
-- Hit 2+ Niveshak Edge dimensions
-- 80% diagnosis, 20% scenario, 0% prediction
-- Opening sentence: specific data or contrast (no "Let's dive in")
-- Invalidation metric included
-- Institutional voice (sharp, calm, zero hype)
+MANDATORY STRUCTURE:
+1. Strong opening sentence (data, anomaly, contrast, or framework)
+2. Lead with ONE killer metric or anomaly early
+3. Apply at least ONE existing framework
+4. Hit at least 2 Niveshak Edge dimensions
+5. Include ONE explicit uncertainty admission
+6. Include ONE thesis-breaking or invalidation metric
+7. Include a “What we’re watching” section at the end
+8. Include at least ONE second-order implication
+9. Reference regime context when relevant
 
-OUTPUT: Draft Sunday Brief (600-800 words)
+NEVER:
+- Use banned AI phrases (delve, navigate, tapestry)
+- Predict price targets or returns
+- Cheerlead or hype
+
+OUTPUT FORMAT:
+
+--- METADATA ---
+Framework used:
+Signature metric:
+Edge dimensions hit:
+Invalidation metric:
+Second-order implication:
+
+--- MASTER DRAFT ---
+[Institutional-grade post, 600–900 words]
+
+--- WHAT WE’RE WATCHING ---
+[3–5 bullet points on forward-looking mechanics, NOT predictions]
+
+--- UNCERTAINTY NOTE ---
+[One paragraph admitting what we cannot know yet]
 ```
 
 **Expected Output**: Draft content
@@ -162,10 +192,10 @@ List sources. Focus on institutional or regulatory counterpoints.
 
 #### Step 3: Red Team Challenge
 
-**Engine**: Red Team (Claude Sonnet 4.5)
+**Engine**: Red Team (Engine 09 - Claude Sonnet 4.5)
 
 **Files to Open**:
-- `02-engines/engine_08_red_team.md`
+- `02-engines/engine_09_red_team.md`
 
 **Prompt** (to Claude):
 ```
@@ -199,10 +229,10 @@ OUTPUT: Red Team report with verdict (PUBLISH/REWRITE/KILL)
 
 #### Step 4: Platform Adaptation
 
-**Engine**: Platform Adapter (ChatGPT + Claude)
+**Engine**: Platform Adapter (Engine 08 - ChatGPT + Claude)
 
 **Files to Open**:
-- `02-engines/engine_07_platform_adapter.md`
+- `02-engines/engine_08_platform_adapter.md`
 - `03-platforms/twitter_thread.md`
 - `03-platforms/linkedin_post.md`
 
@@ -230,10 +260,10 @@ OUTPUT:
 
 #### Step 5: Visual Intelligence Engine (MANDATORY)
 
-**Engine**: Visual Intelligence (Claude Opus 4.5 Thinking)
+**Engine**: Visual Intelligence (Engine 14 - Claude Opus 4.5 Thinking)
 **Action**:
 - Attach final approved post
-- Run Engine 13 starter prompt
+- Run Engine 14 starter prompt
 - Generate visual plan and killer visual
 
 **Checklist**:
@@ -359,10 +389,12 @@ For all killer numbers in research brief:
 
 Follow same process as Sunday Brief:
 1. Chief Strategist (using Monday's research brief)
-2. Contrarian Validator (if governance/regulatory angle)
-3. Red Team challenge (including legal/defamation check)
-4. Platform Adapter
-5. Visual Intelligence Engine (MANDATORY)
+2. **Apex Synthesizer** (Drafting Master Draft)
+   - Open: `02-engines/engine_06_tuesday_audit.md` (Audit prompt)
+3. Contrarian Validator (if governance/regulatory angle)
+4. Red Team (Engine 09) challenge (including legal/defamation check)
+5. Platform Adapter (Engine 08)
+6. Visual Intelligence Engine (Engine 14 - MANDATORY)
 
 **Key Difference**: Tuesday Audit MUST include governance lens (it's a Niveshak signature)
 
@@ -463,10 +495,12 @@ OUTPUT: Structured brief with official sources
 
 Follow Sunday/Tuesday process:
 1. Chief Strategist (using Thursday's signals brief)
-2. Contrarian Validator (MANDATORY for all macro posts)
-3. Red Team challenge (including legal check)
-4. Platform Adapter
-5. Visual Intelligence Engine (Regime visual mandatory)
+2. **Apex Synthesizer** (Drafting Master Draft)
+   - Open: `02-engines/engine_07_friday_macro.md` (Regime/Macro prompt)
+3. Contrarian Validator (MANDATORY for all macro posts)
+4. Red Team (Engine 09) challenge (including legal check)
+5. Platform Adapter (Engine 08)
+6. Visual Intelligence Engine (Engine 14 - Regime visual mandatory)
 
 **Focus**: Regime diagnosis— connect policy/regulatory changes to business impact
 

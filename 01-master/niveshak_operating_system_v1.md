@@ -54,14 +54,15 @@ Niveshak teaches before reacting. Structure:
 | **Chief Strategist** | ChatGPT 5.2 Thinking (o1) | Best long-arc sequencing, worldview memory, strategic planning |
 | **Signal Collector** | Grok Pro + Perplexity Pro | Real-time sentiment, policy tracking, regulatory filings |
 | **Research Desk** | Gemini Deep Research + ChatGPT Deep Research | Volume + precision for quarterly deep dives |
-| **Red Team** | Claude Sonnet 4.5 | Best adversarial reasoning, challenges assumptions |
-| **Creative Hooks** | Claude Sonnet 4.5 | Superior metaphor generation, tone control |
+| **Apex Synthesizer** | Claude Sonnet 3.5 / GPT-4o | Editorial Brain, Continuity, Voice Enforcer (The "Editor-in-Chief") |
+| **Sunday Brief** | ChatGPT 5.2 | Framework synthesis and teaching (Drafting Module) |
+| **Tuesday Audit** | ChatGPT + Gemini Deep Research | Quarterly forensics (Drafting Module) |
+| **Friday Macro** | ChatGPT 5.2 | Regime diagnosis (Drafting Module) |
 | **Platform Adapter** | ChatGPT + Claude | Voice preservation across platforms |
-| **Market Correspondent** | Grok → ChatGPT | Native X sentiment capture, then voice refinement |
-| **Sunday Brief** | ChatGPT 5.2 | Framework synthesis and teaching |
-| **Tuesday Audit** | ChatGPT + Gemini Deep Research | Quarterly forensics |
-| **Friday Macro** | ChatGPT 5.2 | Regime diagnosis |
+| **Red Team** | Claude Sonnet 4.5 | Best adversarial reasoning, challenges assumptions |
+| **Comment Engine** | ChatGPT | Audience engagement |
 | **Chief Editor** | ChatGPT 5.2 Thinking | Worldview memory, drift control, monthly audits |
+| **Market Correspondent** | Grok → ChatGPT | Native X sentiment capture, then voice refinement |
 | **Weekly Digest** | ChatGPT | Synthesis of week's insights |
 | **Visual Intelligence** | Claude Opus 4.5 Thinking | Institutional data visualization & layouts |
 
@@ -95,7 +96,7 @@ If any conflict exists: daily_checklist.md overrides this document.
 - Log kills in `00-bible/killed_ideas.md`
 
 **10:00pm–11:30pm: Sunday Brief Production**
-- Engine: Chief Strategist → Creative Hooks → Red Team → Platform Adapter → Visual Intelligence
+- Engine: Chief Strategist → Research Desk → **Apex Synthesizer** (Draft) → Red Team → Platform Adapter → Visual Intelligence
 - Attach: `niveshak_bible.md`, `frameworks_index.md`, `post_index.md`
 - Output: Framework-driven analysis + Visual Plan
 - Update: `post_index.md`, `frameworks_index.md`
@@ -115,7 +116,8 @@ If any conflict exists: daily_checklist.md overrides this document.
 ### Tuesday (Audit Day)
 
 **Forensic Quarterly Analysis**
-- Engine: Research Desk → Chief Strategist → Red Team → Platform Adapter
+**Forensic Quarterly Analysis**
+- Engine: Research Desk → **Apex Synthesizer** → Red Team → Platform Adapter → Visual Intelligence
 - Attach: Research brief, Bible, Frameworks Index
 - Output: Deep audit post
 - Update: `post_index.md`
@@ -138,7 +140,8 @@ If any conflict exists: daily_checklist.md overrides this document.
 ### Friday (Macro Day)
 
 **Regime-Level Analysis**
-- Engine: Chief Strategist → Platform Adapter
+**Regime-Level Analysis**
+- Engine: Chief Strategist → Signal Collector → **Apex Synthesizer** → Red Team → Platform Adapter → Visual Intelligence
 - Attach: Signals brief, Bible
 - Output: Macro/regime post
 - Update: `post_index.md`, `weekly_market_signals.md`
@@ -321,138 +324,55 @@ Provide sources for all data.
 
 ---
 
-### ENGINE 4: RED TEAM
+### ENGINE 4: APEX SYNTHESIZER
 
-**Model**: Claude Sonnet 4.5  
-**Purpose**: Adversarial challenge, find holes in analysis
+**Model**: Claude Sonnet 3.5 / GPT-4o
+**Purpose**: Editorial Brain, Final Master Draft, Continuity Guardian
+**When to Use**: AFTER Research Desk, BEFORE Red Team. MANDATORY for all analytical posts.
 
-**When to Use**: Before publishing any analytical post
+**Roles**:
+- Converts raw research + signals into institutional narrative
+- Enforces house voice & framework continuity
+- Inserts second-order thinking & uncertainty
+- The ONLY engine authorized to create the Master Draft
 
-**Initial Thread Starter**:
-```
-You are Niveshak's Red Team. Your job: Find holes in this analysis.
+**Files to Attach**: Bible, Frameworks Index, Post Index, Research/Signal Briefs
 
-Analysis to challenge:
-[Paste draft]
-
-Questions to answer:
-1. What data contradicts this thesis?
-2. What alternative explanations exist?
-3. What am I missing?
-4. What could prove this wrong?
-5. Is the invalidation metric actually falsifiable?
-
-Be ruthless. Better to catch errors now than after publishing.
-```
-
-**Restart Prompt**: `Continue red team analysis. Challenge: [specific aspect]`
-
-**Files to Attach**: Draft content
-
-**Output**: List of challenges and holes
-
-**Post-Run**: Address challenges before publishing
+**Output**: Final Master Draft + Metadata Block
 
 ---
 
-### ENGINE 5: CREATIVE HOOKS
+### ENGINES 5-14: REMAINING SPECIFICATIONS
 
-**Model**: Claude Sonnet 4.5  
-**Purpose**: Opening sentences, metaphors, hooks
+**ENGINE 5: SUNDAY BRIEF** → `02-engines/engine_05_sunday_brief.md`
+Model: ChatGPT 5.2 | Purpose: Framework analysis (Drafting Helper)
 
-**When to Use**: After draft is complete, before platform adaptation
+**ENGINE 6: TUESDAY AUDIT** → `02-engines/engine_06_tuesday_audit.md`
+Model: ChatGPT + Research Desk | Purpose: Quarterly forensics (Drafting Helper)
 
-**Initial Thread Starter**:
-```
-You are Niveshak's Creative Hooks specialist. Craft opening sentences that hook serious investors.
+**ENGINE 7: FRIDAY MACRO** → `02-engines/engine_07_friday_macro.md`
+Model: ChatGPT 5.2 | Purpose: Regime analysis (Drafting Helper)
 
-Rules:
-- Start with specific data, not generic statements
-- No rhetorical questions
-- No "Let's dive in" or "In today's market"
-- Sharp, institutional voice
-- Passes Coffee Test
+**ENGINE 8: PLATFORM ADAPTER** → `02-engines/engine_08_platform_adapter.md` (See Section 5 for Red Team/Adapter details, renumbered)
+Model: ChatGPT + Claude | Purpose: Voice preservation
 
-Draft summary:
-[Provide 2-3 sentence summary of post]
+**ENGINE 9: RED TEAM** → `02-engines/engine_09_red_team.md`
+Model: Claude Sonnet 4.5 | Purpose: Adversarial challenge
 
-Generate 5 opening sentence options.
-```
+**ENGINE 10: COMMENT ENGINE** → `02-engines/engine_10_comment_engine.md`
+Model: ChatGPT | Purpose: Audience engagement
 
-**Restart Prompt**: `Generate more hook options for: [summary]`
+**ENGINE 11: CHIEF EDITOR** → `02-engines/engine_11_chief_editor.md`
+Model: ChatGPT 5.2 Thinking | Purpose: Drift control
 
-**Files to Attach**: `niveshak_bible.md` (for voice rules)
+**ENGINE 12: MARKET CORRESPONDENT** → `02-engines/engine_12_market_correspondent.md`
+Model: Grok → ChatGPT | Purpose: Real-time observations
 
-**Output**: 5 opening sentence options
-
-**Post-Run**: Select best, integrate into draft
-
----
-
-### ENGINE 6: PLATFORM ADAPTER
-
-**Model**: ChatGPT + Claude  
-**Purpose**: Adapt content for Twitter/LinkedIn/Reddit
-
-**When to Use**: After content finalized, before publishing
-
-**Initial Thread Starter**:
-```
-You are Niveshak's Platform Adapter. Adapt this post for [Platform].
-
-Original post:
-[Paste content]
-
-Platform rules (from 03-platforms/[platform].md):
-[Paste relevant rules]
-
-Maintain: Institutional voice, signature metric, framework
-Adapt: Structure, length, visual presentation
-
-Output: Platform-ready version
-```
-
-**Restart Prompt**: `Adapt for [different platform] maintaining voice.`
-
-**Files to Attach**: Platform-specific rules file, `niveshak_bible.md`
-
-**Output**: Platform-adapted content
-
-**Post-Run**: Review for voice consistency
-
----
-
-### ENGINES 4-12: INDIVIDUAL SPECIFICATIONS
-
-All remaining engines have complete specification files in `02-engines/`:
-
-**ENGINE 4: SUNDAY BRIEF** → `engine_04_sunday_brief.md`  
-Model: ChatGPT 5.2 | Purpose: Weekly framework-driven analysis | Must: Teach + apply framework
-
-**ENGINE 5: TUESDAY AUDIT** → `engine_05_tuesday_audit.md`  
-Model: ChatGPT + Research Desk | Purpose: Quarterly forensics | Must: Signature metric + governance lens
-
-**ENGINE 6: FRIDAY MACRO** → `engine_06_friday_macro.md`  
-Model: ChatGPT 5.2 | Purpose: Regime analysis | Must: Connect policy to business impact
-
-**ENGINE 7-8**: See individual sections above (Platform Adapter, Red Team)
-
-**ENGINE 9: COMMENT ENGINE** → `engine_09_comment_engine.md`  
-Model: ChatGPT | Purpose: Audience engagement | Rules: Value-first, institutional tone
-
-**ENGINE 10: CHIEF EDITOR** → `engine_10_chief_editor.md`  
-Model: ChatGPT 5.2 Thinking | Purpose: Monthly drift audits
-
-**ENGINE 11: MARKET CORRESPONDENT** → `engine_11_market_correspondent.md`  
-Model: Grok → ChatGPT | Purpose: Real-time observations (max 3/week)
-
-**ENGINE 12: WEEKLY DIGEST** → `engine_12_weekly_digest.md`  
+**ENGINE 13: WEEKLY DIGEST** → `02-engines/engine_13_weekly_digest.md`
 Model: ChatGPT | Purpose: End-of-week synthesis
 
-**ENGINE 13: VISUAL INTELLIGENCE** → `engine_13_visual_intelligence.md`
-Model: Claude Opus 4.5 Thinking | Purpose: Institutional visuals & killer charts | Must: Run last
-
-*Full prompts, protocols, and quality controls in each engine's dedicated file*
+**ENGINE 14: VISUAL INTELLIGENCE** → `02-engines/engine_14_visual_intelligence.md`
+Model: Claude Opus 4.5 | Purpose: Institutional visuals
 
 ---
 

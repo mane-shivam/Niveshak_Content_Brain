@@ -1,4 +1,4 @@
-# 🧠 ENGINE 13 — VISUAL INTELLIGENCE & DESIGN ENGINE
+# 🧠 ENGINE 14 — VISUAL INTELLIGENCE & DESIGN ENGINE
 
 **Status: Mandatory Final Layer Before Publishing**
 **Primary Model: Claude Opus 4.5 (Thinking Mode)**
@@ -61,7 +61,7 @@ Before:
 ## 📂 FILES TO ATTACH
 
 Always attach:
-- Final approved post (Sunday / Tuesday / Friday)
+- **Apex Master Draft (Engine 04 Output)**
 - `00-bible/niveshak_bible.md` (voice & bans)
 - Platform files:
   - `03-platforms/twitter_thread.md`
@@ -208,7 +208,7 @@ Focus on:
 
 ## 🔵 OUTPUT FILES & LOGGING
 
-After running Engine 13:
+After running Engine 14:
 
 Update:
 

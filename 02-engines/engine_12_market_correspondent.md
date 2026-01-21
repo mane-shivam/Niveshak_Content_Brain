@@ -1,4 +1,4 @@
-# ENGINE 11: MARKET CORRESPONDENT
+# ENGINE 12: MARKET CORRESPONDENT
 
 **Model**: Grok → ChatGPT (dual-stage)  
 **Purpose**: Real-time market observations when insight > trend (max 3/week)

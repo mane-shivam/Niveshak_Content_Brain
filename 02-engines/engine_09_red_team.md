@@ -1,4 +1,4 @@
-# ENGINE 08: RED TEAM
+# ENGINE 09: RED TEAM
 
 **Model**: Claude Sonnet 4.5  
 **Purpose**: Adversarial challenge, find holes in analysis before publishing
@@ -94,7 +94,7 @@ Find: [Specific type of hole—logical gaps / missing data / alternative explana
 
 ## FILES TO ATTACH EVERY TIME
 
-1. Complete draft content
+1. **Apex Master Draft (Engine 04 Output)**
 2. `00-bible/niveshak_bible.md` (to check alignment with philosophy)
 
 Optional:

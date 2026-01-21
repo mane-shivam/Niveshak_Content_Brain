@@ -1,4 +1,4 @@
-# ENGINE 12: WEEKLY DIGEST
+# ENGINE 13: WEEKLY DIGEST
 
 **Model**: ChatGPT  
 **Purpose**: End-of-week synthesis highlighting frameworks taught and value delivered
@@ -90,7 +90,7 @@ Maintain: Institutional tone, value-focus, brevity.
 
 ## FILES TO ATTACH EVERY TIME
 
-1. **This week's 3 main posts** (Sunday/Tuesday/Friday)
+1. **Apex Master Drafts for this week** (Sunday/Tuesday/Friday)
 2. `00-bible/frameworks_index.md `(framework context)
 3. `00-bible/post_index.md` (for tracking)
 4. `00-bible/niveshak_bible.md` (voice rules)

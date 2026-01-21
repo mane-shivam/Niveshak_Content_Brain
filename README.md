@@ -87,15 +87,17 @@ Each engine has a specific role, model, and prompt protocol:
 | 01 | **Chief Strategist** | ChatGPT 5.2 Thinking | Long-arc planning, framework development, worldview memory |
 | 02 | **Signal Collector** | Grok Pro + Perplexity Pro | Real-time regulatory/policy/governance intelligence |
 | 03 | **Research Desk** | Gemini + ChatGPT Deep Research | Forensic quarterly analysis, data collection |
-| 04 | **Sunday Brief** | ChatGPT 5.2 | Framework-driven weekly posts |
-| 05 | **Tuesday Audit** | ChatGPT + Research Desk | Quarterly forensic deep-dives |
-| 06 | **Friday Macro** | ChatGPT 5.2 | Regime diagnosis and policy analysis |
-| 07 | **Platform Adapter** | ChatGPT + Claude | Voice-preserving platform adaptation |
-| 08 | **Red Team** | Claude Sonnet 4.5 | Adversarial challenge, quality veto |
-| 09 | **Comment Engine** | ChatGPT | Audience engagement, value-first replies |
-| 10 | **Chief Editor** | ChatGPT 5.2 Thinking | Monthly drift audits, quality control |
-| 11 | **Market Correspondent** | Grok → ChatGPT | Real-time observations (max 3/week) |
-| 12 | **Weekly Digest** | ChatGPT | End-of-week synthesis |
+| 04 | **Apex Synthesizer** | Claude Sonnet / GPT-4o | Editorial Brain, Continuity, Final Master Draft |
+| 05 | **Sunday Brief** | ChatGPT 5.2 | Framework-driven weekly posts (Drafting Helper) |
+| 06 | **Tuesday Audit** | ChatGPT + Research Desk | Quarterly forensic deep-dives (Drafting Helper) |
+| 07 | **Friday Macro** | ChatGPT 5.2 | Regime diagnosis and policy analysis (Drafting Helper) |
+| 08 | **Platform Adapter** | ChatGPT + Claude | Voice-preserving platform adaptation |
+| 09 | **Red Team** | Claude Sonnet 4.5 | Adversarial challenge, quality veto |
+| 10 | **Comment Engine** | ChatGPT | Audience engagement, value-first replies |
+| 11 | **Chief Editor** | ChatGPT 5.2 Thinking | Monthly drift audits, quality control |
+| 12 | **Market Correspondent** | Grok → ChatGPT | Real-time observations (max 3/week) |
+| 13 | **Weekly Digest** | ChatGPT | End-of-week synthesis |
+| 14 | **Visual Intelligence** | Claude Opus 4.5 Thinking | Institutional visuals & killer charts |
 
 **Full specifications**: See [`02-engines/`](02-engines/) folder
 
@@ -119,15 +121,17 @@ Niveshak_Content_Brain/
 │   ├── engine_01_chief_strategist.md
 │   ├── engine_02_signal_collector.md
 │   ├── engine_03_research_desk.md
-│   ├── engine_04_sunday_brief.md
-│   ├── engine_05_tuesday_audit.md
-│   ├── engine_06_friday_macro.md
-│   ├── engine_07_platform_adapter.md
-│   ├── engine_08_red_team.md
-│   ├── engine_09_comment_engine.md
-│   ├── engine_10_chief_editor.md
-│   ├── engine_11_market_correspondent.md
-│   ├── engine_12_weekly_digest.md
+│   ├── engine_04_apex_synthesizer.md  # NEW: Editorial Brain
+│   ├── engine_05_sunday_brief.md
+│   ├── engine_06_tuesday_audit.md
+│   ├── engine_07_friday_macro.md
+│   ├── engine_08_platform_adapter.md
+│   ├── engine_09_red_team.md
+│   ├── engine_10_comment_engine.md
+│   ├── engine_11_chief_editor.md
+│   ├── engine_12_market_correspondent.md
+│   ├── engine_13_weekly_digest.md
+│   ├── engine_14_visual_intelligence.md
 │   └── prompt_changelog.md         # Engine prompt version control
 │
 ├── 03-platforms/                # Platform Adaptation Rules

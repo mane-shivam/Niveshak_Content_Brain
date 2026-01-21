@@ -1,4 +1,4 @@
-# ENGINE 07: PLATFORM ADAPTER
+# ENGINE 08: PLATFORM ADAPTER
 
 **Model**: ChatGPT + Claude  
 **Purpose**: Adapt content for Twitter/LinkedIn/Reddit while preserving Niveshak voice
@@ -41,7 +41,7 @@ ADAPT:
 OUTPUT: Platform-ready content
 ```
 
-**Files to Attach**: `niveshak_bible.md`, platform rules file, original content
+**Files to Attach**: `niveshak_bible.md`, platform rules file, **Apex Master Draft (Engine 04 Output)**
 
 **Output**: Adapted content maintaining voice
 
