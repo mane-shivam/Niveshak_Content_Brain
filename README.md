@@ -13,12 +13,13 @@ This is **a living institutional operating system** for producing elite, forensi
 **Niveshak** is India's most disciplined equity intelligence platform. We publish institutional-grade research for serious retail investors, HNIs, fund managers, and critics who reject hype and demand rigor.
 
 This repository encodes:
-- **12 coordinated AI engines** working in harmony
-- **Complete philosophical framework** (voice, bans, principles)
+- **12 coordinated AI engines** working in harmony (multi-model validation, replaceable by design)
+- **Complete philosophical framework** (voice, bans, principles, legal guardrails)
 - **Daily/weekly/monthly rituals** for consistent quality
 - **Validation layers** preventing drift and errors
-- **Memory systems** ensuring frameworks compound, not fade
+- **Memory systems** ensuring frameworks compound, not fade (including thesis evolution tracking)
 - **Failure recovery protocols** maintaining honesty and trust
+- **Weekly synthesis engine** condensing insights into actionable intelligence
 
 ---
 
@@ -29,30 +30,51 @@ This repository encodes:
 1. **[`00-bible/niveshak_bible.md`](00-bible/niveshak_bible.md)** — The Constitution  
    Our mission, voice rules, writing bans, edge dimensions, philosophy
 
-2. **[`01-master/niveshak_operating_system_v1.md`](01-master/niveshak_operating_system_v1.md)** — The Canonical System  
+2. **[`01-master/niveshak_operating_system_v1.md`](01-master/niveshak_operating_system_v1.md)** — The Operating System  
    Complete overview of all 12 engines, model stack, rituals, quality gates
 
-3. **[`04-operations/daily_checklist.md`](04-operations/daily_checklist.md)** — The Operational Core  
+3. **[`04-operations/daily_checklist.md`](04-operations/daily_checklist.md)** — The Execution Authority  
    Day-by-day guide with exact prompts, files, and outputs
 
 **That's it. Those 3 files contain the entire system.**
 
 ---
 
+## ⚙️ EXECUTION HIERARCHY
+
+**Authority flows in this order:**
+
+1. **`daily_checklist.md`** = **Execution Law** (highest authority)
+2. **`niveshak_bible.md`** = **Philosophy** (voice, principles, bans)
+3. **`niveshak_operating_system_v1.md`** = **Architecture** (how engines work)
+4. **Individual engine files** = **Specifications** (detailed prompts)
+
+**Critical Rule**: If any document conflicts with `daily_checklist.md`, the checklist wins.  
+This prevents drift when documentation evolves at different speeds.
+
+**New Operator Safety**: New team members require Chief Editor approval for all publications during first 4 weeks.
+
+---
+
 ## 📅 WEEKLY CADENCE
 
-### Publishing Schedule
+### Core Publishing Schedule (3 Mandatory Posts)
 
 **Sunday 9pm–12am**: Framework-driven weekly analysis (Sunday Brief)  
 **Tuesday**: Deep forensic quarterly audit (Tuesday Audit)  
-**Friday**: Regime-level macro insights (Friday Macro)
+**Friday**: Regime-level macro insights (Friday Macro)  
+**Saturday Evening**: Weekly Intelligence Digest (synthesis of week's insights)
+
+### Optional Real-Time (Disciplined Limits)
+
+**Market Correspondent**: Max 3 posts/week | Only when Insight > Trend | No hype, no predictions | Must feed Weekly Digest
 
 ### Production Schedule
 
 **Monday**: Research for Tuesday Audit  
 **Wednesday**: Silent Strategy Slot (no publishing, strategic thinking)  
 **Thursday**: Signal collection for Friday Macro  
-**Saturday**: Memory systems, drift checks, post-mortems
+**Saturday**: Memory systems, drift checks, post-mortems, Weekly Digest production
 
 ---
 
@@ -97,9 +119,16 @@ Niveshak_Content_Brain/
 │   ├── engine_01_chief_strategist.md
 │   ├── engine_02_signal_collector.md
 │   ├── engine_03_research_desk.md
+│   ├── engine_04_sunday_brief.md
+│   ├── engine_05_tuesday_audit.md
+│   ├── engine_06_friday_macro.md
 │   ├── engine_07_platform_adapter.md
 │   ├── engine_08_red_team.md
-│   └── engines_04_06_09_12_compact.md
+│   ├── engine_09_comment_engine.md
+│   ├── engine_10_chief_editor.md
+│   ├── engine_11_market_correspondent.md
+│   ├── engine_12_weekly_digest.md
+│   └── prompt_changelog.md         # Engine prompt version control
 │
 ├── 03-platforms/                # Platform Adaptation Rules
 │   ├── twitter_thread.md        # X/Twitter formatting & voice
@@ -110,9 +139,14 @@ Niveshak_Content_Brain/
 │   ├── daily_checklist.md       # ⭐ MOST IMPORTANT OPERATIONAL FILE
 │   ├── weekly_checklist.md      # Saturday review protocol
 │   ├── monthly_drift_check.md   # First Saturday comprehensive audit
-│   ├── quality_gate.md          # Pre-publication validation
+│   ├── quality_gate.md          # Pre-publication validation (10 gates)
 │   ├── failure_log.md           # Error tracking & learning
-│   └── high_signal_readers.md   # Engaged audience tracking
+│   ├── high_signal_readers.md   # Engaged audience tracking
+│   ├── model_health_log.md      # AI model performance monitoring
+│   ├── market_correspondent_log.md  # MC post tracking & caps
+│   ├── framework_performance.md # Framework win/loss tracking
+│   ├── idea_backlog.md          # Reframed ideas storage
+│   └── thesis_versions.md       # Intellectual evolution tracking
 │
 └── 05-signals/                  # Market Intelligence Tracking
     ├── weekly_market_signals.md # Regulatory, governance, flow signals
@@ -162,28 +196,42 @@ Sharp, calm, forensic, anti-fluff. We maintain credibility over clicks.
 ### 4. Framework Reinforcement
 We don't just introduce frameworks—we reinforce them over time for compounding intellectual value.
 
-### 5. Governance When Warranted
-We occasionally question incentives and management behavior, always with data, never sensationally.
+### 5. Governance & Legal Discipline
+We question incentives and management behavior with data, never sensationally.
+**Legal Rule**: All allegations framed as data-based observations, not intent-based accusations. Avoid fraud implications unless officially disclosed by regulators.
 
 ### 6. Quality Over Speed
 Better to kill a mediocre idea than publish it and damage trust.
+
+### 7. Model Governance Philosophy
+**Multi-Model Validation**: No single AI model is gospel. We use multiple models for cross-validation.
+**Models Are Replaceable**: If any model degrades, we swap it. The system survives model failure.
+**Weekly Health Checks**: Every engine monitored for hallucinations, tone drift, and logic errors.
 
 ---
 
 ## 🛡️ QUALITY SYSTEMS
 
-### Pre-Publication Gates (ALL must pass)
+### Pre-Publication Gates (ALL 10 must pass)
 1. **Signature Metric**: One killer number anchors the post
 2. **2+ Edge Dimensions**: Novel metric / Regime / Governance / Teaching / Cross-sector / Product
 3. **Invalidation Metric**: Specific data point that would prove analysis wrong
 4. **Coffee Test**: Would a smart friend feel smarter hearing this?
 5. **Voice Check**: Zero banned AI tells
 6. **Red Team Approval**: Adversarial challenge passed
+7. **Energy Governor**: Post NOT written when fatigued
+8. **Data Verification**: All killer numbers cross-verified from 2 independent sources
+9. **Prediction Leakage Scan**: Zero price targets, directional claims, or implied returns
+10. **Publication Authorization Gate**: Final institutional accountability check before scheduling
 
 ### Drift Prevention
 - **Weekly**: Framework reinforcement audit
-- **Monthly**: Voice drift check (random post sampling)
+- **Monthly**: Voice drift check (random post sampling), prediction leakage audit, model health review
 - **Continuous**: Post Index tracks patterns
+
+### Intellectual Memory Systems
+- **Framework Performance**: Win/loss tracking for every framework application
+- **Thesis Evolution**: Version control for core theses showing how thinking evolved over time
 
 ### Failure Recovery
 - **Acknowledge** within 24 hours

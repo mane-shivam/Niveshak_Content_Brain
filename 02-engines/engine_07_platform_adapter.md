@@ -47,4 +47,16 @@ OUTPUT: Platform-ready content
 
 ---
 
+## POST-RUN CHECKLIST
+
+- [ ] Banned AI tell scan completed (reference Bible banned list)
+- [ ] No rhetorical hook questions ("Is X failing?")
+- [ ] No hype adjectives ("Incredible", "Game-changing")
+- [ ] Signature metric preserved
+- [ ] Institutional voice intact
+
+---
+
+---
+
 **Last Updated**: 21 Jan 2026 | **Version**: 1.0 | **Status**: Production

@@ -208,6 +208,9 @@ Niveshak Edge Dimensions Present:
 Suggested Invalidation Metric:
 [What data point next quarter would prove our analysis wrong]
 
+MANDATORY THINKING LENS:
+Before final output, answer the Signature Questions from niveshak_bible.md explicitly in internal reasoning.
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SOURCES
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -217,6 +220,21 @@ SOURCES
 3. [BSE/NSE filing link]
 4. [Annual report link if referenced]
 ```
+
+---
+
+---
+
+## DATA VERIFICATION GATE (MANDATORY)
+
+**Before passing to Chief Strategist, verify ALL killer numbers:**
+
+- [ ] All killer numbers cross-verified from 2 independent primary sources
+- [ ] Units confirmed (₹ Cr vs ₹ Mn vs ₹)
+- [ ] Quarter and FY confirmed
+- [ ] YoY and QoQ recalculated manually
+
+**Rule**: If any killer number is unverified, mark APPROX or remove from thesis.
 
 ---
 

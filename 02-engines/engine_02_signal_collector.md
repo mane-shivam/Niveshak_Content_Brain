@@ -22,7 +22,7 @@ You are Niveshak's Signal Collector. You filter signal from noise. Your job:
 ## WHEN TO USE
 
 1. **Thursday**: Collect signals for Friday Macro post
-2. **Ongoing**: Monitor for Market Correspondent opportunities (max 3/week)
+2. **Ongoing**: Monitor for Market Correspondent opportunities (max 3/week). Check `market_correspondent_log.md` before drafting.
 3. **Monday**: Scan for Tuesday Audit company signals
 
 ---
@@ -158,6 +158,8 @@ After Signal Collector run:
 - [ ] Governance flags are data-backed, not speculative
 - [ ] Sentiment signals show regime shift, not one-day moves
 - [ ] Each signal has "Why it matters" beyond compliance
+- [ ] Checked MC weekly cap not exceeded
+- [ ] Logged MC idea in market_correspondent_log.md
 
 ---
 

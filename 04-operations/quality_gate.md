@@ -76,7 +76,7 @@ If any is "No" → REWRITE or KILL
 - "It's worth noting"
 - "Interestingly" / "Notably"
 - "Let's dive in" / "Let's unpack"
--"In today's landscape"
+- "In today's landscape"
 - "This underscores"
 - "Testament to"
 
@@ -92,6 +92,63 @@ If any is "No" → REWRITE or KILL
 - [ ] Red Team report completed?
 - [ ] Verdict was PUBLISH (not REWRITE or KILL)?
 - [ ] All critical issues addressed?
+- [ ] Legal/defamation risks checked (allegations framed as data-based, not intent-based)?
+
+---
+
+## ✅ GATE 7: ENERGY GOVERNOR
+
+**Rule**: Post NOT written when mental clarity < threshold
+
+**Check**:
+- [ ] Energy & Clarity Check passed before starting draft?
+- [ ] If check failed, was writing postponed (not forced)?
+
+**Purpose**: Prevents fatigued writing that damages quality
+
+---
+
+## ✅ GATE 8: DATA VERIFICATION
+
+**Rule**: All killer numbers cross-verified from 2 independent sources
+
+**Check**:
+- [ ] Every number verified from 2+ sources (filings + presentation, or presentation + earnings call)?
+- [ ] Units confirmed (₹ Cr vs ₹ Mn)?
+- [ ] Quarter and FY confirmed?
+- [ ] YoY/QoQ calculations verified?
+
+**If unverified**: Mark as APPROX or remove from thesis
+
+---
+
+## ✅ GATE 9: PREDICTION LEAKAGE SCAN
+
+**Rule**: Zero price targets, directional claims, or implied returns
+
+**Banned Language**:
+- Price targets ("Will reach ₹500")
+- Directional claims ("Set to outperform", "Likely to rise")
+- Implied returns ("Good time to buy")
+- "Will" language (use "If...then" conditionals instead)
+
+**Check**: Scan for all prediction language. Must be ZERO.
+
+---
+
+## ✅ GATE 10: FINAL HUMAN SANITY PASS
+
+**Rule**: Read once aloud before publishing
+
+**Check**:
+- [ ] Read entire post aloud
+- [ ] Any sentence feels defensive → rewrite
+- [ ] Any sentence feels promotional → rewrite
+- [ ] Any sentence feels predictive → rewrite
+- [ ] Internal contradictions → fix
+- [ ] Tone misalignment → adjust
+
+**Purpose**: Catch what AI misses (overconfidence, subtle hype, logic errors)
 
 ---
 
@@ -99,10 +156,20 @@ If any is "No" → REWRITE or KILL
 
 | Gates Passed | Action |
 |--------------|--------|
-| All 6 | ✅ PUBLISH |
-| 5/6 | ⚠️ REWRITE (fix the failing gate) |
-| 4/6 or less | 🛑 KILL (fundamental issues) |
+| All 10 | ✅ PUBLISH |
+| 8-9/10 | ⚠️ REWRITE (fix the failing gates) |
+| 7/10 or less | 🛑 KILL (fundamental issues) |
 
 ---
 
-**Last Updated**: 21 Jan 2026 | **Version**: 1.0
+## 🔴 MANDATORY GATES BY POST TYPE
+
+**All Analytical Posts** (Sunday/Tuesday/Friday): Gates 1-10 (ALL)
+
+**Market Correspondent**: Gates 5, 9, 10 (voice, prediction, sanity)
+
+**Comment Replies**: Gates 5, 10 (voice, sanity)
+
+---
+
+**Last Updated**: 21 Jan 2026 | **Version**: 1.1

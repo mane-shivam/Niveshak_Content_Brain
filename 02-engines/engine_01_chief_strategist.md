@@ -94,6 +94,30 @@ Maintain: Teaching-first approach, framework reinforcement focus, institutional 
 
 ---
 
+## SIGNATURE QUESTION ENFORCEMENT (MANDATORY)
+
+**Before proposing any thesis, arc, or framework**, you MUST explicitly evaluate at least **5** of the following Signature Questions:
+
+1. **What is the market missing?** (What's not in headlines, consensus,  or price?)
+2. **What is the real driver, not the reported driver?** (Beyond management narrative)
+3. **Where does cash disagree with profit?** (CFO vs PAT divergence)
+4. **What incentives are at play?** (Who benefits from this narrative?)
+5. **What would break this thesis?** (Falsification condition)
+6. **What regime are we actually in?** (Company story vs regime story)
+7. **Where has this pattern appeared before?** (Cross-sector/historical)
+8. **What is management not saying?** (Conspicuous silence)
+9. **Is this sustainable or just optimized?** (Durable vs temporary)
+10. **Who is the marginal buyer/seller?** (Price-setting behavior)
+11. **What would a skeptical fund manager ask?** (Bear case)
+12. **What does this teach?** (Transferable framework?)
+
+**OUTPUT REQUIREMENT**:
+List which 3–5 Signature Questions shaped the proposal before final output.
+
+**Purpose**: This locks Niveshak's intellectual DNA into every strategic decision.
+
+---
+
 ## OUTPUT FORMAT
 
 ### For Sunday Idea Kill Zone
@@ -227,6 +251,23 @@ Before proceeding with any Chief Strategist output:
 - Did we kill at least 30% of proposed ideas?
 
 If any answer is "No," revisit.
+
+---
+
+## MANDATORY QUESTION SET (RUN BEFORE FINAL DRAFT)
+
+**Before finalizing any strategic plan or arc, answer these internally:**
+
+1. **What is the real economic mechanic here**, not the reported narrative?
+2. **Where could this thesis fail first?** (Invalidation)
+3. **Which incentive explains management behavior best?**
+4. **What metric would disprove this in one quarter?**
+5. **What is the market misunderstanding structurally?**
+
+**Checklist**:
+- [ ] Prediction leakage scan completed
+- [ ] Human sanity pass completed
+- [ ] At least one Signature Question explicitly shaped the thesis
 
 ---
 

@@ -2,6 +2,24 @@
 
 **The Complete Institutional Playbook**
 
+---
+
+## EXECUTION HIERARCHY (NON-NEGOTIABLE)
+
+**Priority order when conflicts exist:**
+
+1. **`daily_checklist.md`** = **Execution authority** (timing, prompts, sequencing)
+2. **`niveshak_bible.md`** = **Philosophy & voice** (how we think and write)
+3. **`niveshak_operating_system_v1.md`** = **Architecture** (how engines work)
+4. **Individual engine files** = **Implementation** (detailed specs)
+
+**Critical Rule**: Any lower-level file must obey higher-level files.  
+If `daily_checklist.md` says to do X at 9pm, but this OS suggests Y at 10pm → **daily_checklist wins**.
+
+This hierarchy prevents drift when documentation evolves at different speeds.
+
+---
+
 This is the single canonical document encoding the entire Niveshak content production system. Everything else in this repository expands on what's defined here.
 
 ---
@@ -57,6 +75,10 @@ Niveshak teaches before reacting. Structure:
 ---
 
 ## SECTION 3: DAILY/WEEKLY/MONTHLY RITUALS
+
+**⚠️ EXECUTION AUTHORITY**: This section defines philosophy only.  
+Execution MUST follow `04-operations/daily_checklist.md`.  
+If any conflict exists: daily_checklist.md overrides this document.
 
 ### Sunday (9pm–12am)
 
@@ -152,6 +174,7 @@ Every post must pass ALL:
 4. **Coffee Test**: Would a smart friend feel smarter after hearing this?
 5. **Voice Check**: Zero banned AI tells, institutional tone maintained
 6. **Red Team Passed**: Adversarial challenge completed, holes addressed
+7. **Energy Governor Passed**: Post NOT written when mental clarity < threshold (if Energy Check failed, writing postponed, never forced)
 
 ### Rewrite vs. Kill Thresholds
 
@@ -191,6 +214,7 @@ When a published post receives critical feedback or proves wrong:
 **Step 5: Reinforce Process**
 - Why did quality gates fail?
 - How do we prevent recurrence?
+- If failure traced to fatigue: Log as Process Failure, reinforce Energy Governor
 
 ---
 
@@ -397,27 +421,34 @@ Output: Platform-ready version
 
 ---
 
-### ENGINE 7-12: COMPACT SPECS
+### ENGINES 4-12: INDIVIDUAL SPECIFICATIONS
 
-**ENGINE 7: MARKET CORRESPONDENT**  
-Model: Grok → ChatGPT | Purpose: Real-time observations (max 3/week) | Rule: Insight > trend, no frameworks
+All remaining engines have complete specification files in `02-engines/`:
 
-**ENGINE 8: SUNDAY BRIEF**  
-Model: ChatGPT 5.2 | Purpose: Weekly framework posts | Must: Teach + apply framework
+**ENGINE 4: SUNDAY BRIEF** → `engine_04_sunday_brief.md`  
+Model: ChatGPT 5.2 | Purpose: Weekly framework-driven analysis | Must: Teach + apply framework
 
-**ENGINE 9: TUESDAY AUDIT**  
+**ENGINE 5: TUESDAY AUDIT** → `engine_05_tuesday_audit.md`  
 Model: ChatGPT + Research Desk | Purpose: Quarterly forensics | Must: Signature metric + governance lens
 
-**ENGINE 10: FRIDAY MACRO**  
+**ENGINE 6: FRIDAY MACRO** → `engine_06_friday_macro.md`  
 Model: ChatGPT 5.2 | Purpose: Regime analysis | Must: Connect policy to business impact
 
-**ENGINE 11: CHIEF EDITOR**  
-Model: ChatGPT 5.2 Thinking | Purpose: Monthly drift audits | Checks: Voice, frameworks, quality gates
+**ENGINE 7-8**: See individual sections above (Platform Adapter, Red Team)
 
-**ENGINE 12: COMMENT ENGINE**  
-Model: ChatGPT | Purpose: Audience engagement | Rules: Value-first, institutional tone, praise gracefully, engage critics respectfully
+**ENGINE 9: COMMENT ENGINE** → `engine_09_comment_engine.md`  
+Model: ChatGPT | Purpose: Audience engagement | Rules: Value-first, institutional tone
 
-*Full prompts in 02-engines/ folder*
+**ENGINE 10: CHIEF EDITOR** → `engine_10_chief_editor.md`  
+Model: ChatGPT 5.2 Thinking | Purpose: Monthly drift audits
+
+**ENGINE 11: MARKET CORRESPONDENT** → `engine_11_market_correspondent.md`  
+Model: Grok → ChatGPT | Purpose: Real-time observations (max 3/week)
+
+**ENGINE 12: WEEKLY DIGEST** → `engine_12_weekly_digest.md`  
+Model: ChatGPT | Purpose: End-of-week synthesis
+
+*Full prompts, protocols, and quality controls in each engine's dedicated file*
 
 ---
 
@@ -426,8 +457,29 @@ Model: ChatGPT | Purpose: Audience engagement | Rules: Value-first, institutiona
 ### Layer 1: Red Team (Mandatory)
 Every analytical post challenged before publishing
 
-### Layer 2: Perplexity Contrarian Validator
-After Red Team, ask Perplexity: "What data contradicts this analysis?"
+### Layer 2: Contrarian Validator (Mandatory for High-Impact Posts)
+
+**Engine**: Perplexity Pro (finance + web connectors)
+
+**Trigger**:
+- All macro posts
+- All governance posts
+- Any post with regulatory interpretation
+- Any post with novel framework
+
+**Prompt Template**:
+```
+What credible data or narratives contradict this thesis?
+List sources. Focus on institutional or regulatory counterpoints.
+```
+
+**Output**:
+- 3-5 contrarian bullets
+- Source links
+
+**Post-Run**:
+- Log contradictions in research notes
+- If unresolved contradiction exists → Red Team rerun required
 
 ### Layer 3: Chief Editor Monthly Audit
 First Saturday of month, review all posts for drift
@@ -449,18 +501,37 @@ Underperforming posts analyzed for lessons
 **Philosophy Memory**: `niveshak_bible.md` + monthly Chief Editor audits  
 **Failure Memory**: `failure_log.md` ensures learning from mistakes
 
+### Framework Reinforcement Tracker
+
+`frameworks_index.md` must track:
+- First Introduced Date
+- Last Reinforced Date
+- Reinforcement Count
+
+**Rule**: No framework may go 4+ weeks without reinforcement.  
+Saturday audit flags any framework approaching this limit.
+
 ### Drift Prevention
 
 **Voice Drift**: Monthly random post audit for AI tells  
 **Framework Drift**: Check frameworks being applied correctly  
 **Quality Drift**: Verify quality gates still enforced  
-**Philosophy Drift**: Compare recent posts to Bible
+**Philosophy Drift**: Compare recent posts to Bible  
+**Prediction Leakage Audit**: Monthly scan for price targets, directional language, implicit forecasts (any violation logged, prompt updated)
 
 **Red Flags**:
 - Banned phrases appear
 - Predictions creep in
 - Framework reinforcement gaps > 4 weeks
 - Zero post mortems (means we're not being honest about failures)
+
+### Post-Mortem Integration
+
+**Before Starting Any New Draft**:
+→ Review previous post post-mortem notes  
+→ Fix at least one weakness discovered
+
+This prevents repeating mistakes across content cycles.
 
 ---
 
@@ -481,6 +552,24 @@ Example: "Great question. The difference between GMV and revenue is... [explanat
 
 **Timing**: Respond to high-signal comments within 24-48 hours
 
+### High-Signal Engagement Protocol
+
+**Rules**:
+- High-signal comments must be answered within 24 hours
+- Replies must add value for silent readers, not just the commenter
+- Never reply with thanks-only messages
+
+**Conversion Rule**:
+If a question appears twice or from high-signal reader:
+→ Log in `high_signal_readers.md`
+→ Flag as potential Sunday Brief or Audit topic
+
+**Trust Rule**:
+When corrected by a credible reader:
+→ Acknowledge publicly
+→ Log in `failure_log.md`
+→ Reinforce framework in next cycle
+
 ---
 
 ## SECTION 9: MARKET CORRESPONDENT & RANDOM POSTS
@@ -497,6 +586,17 @@ Example: "Great question. The difference between GMV and revenue is... [explanat
 
 **Example Bad Post**:
 > "Market crashes 2%! What's happening?" ❌
+
+### Integration Rule
+
+**Weekly Digest Connection**:
+- At least 1 Market Correspondent insight per week must feed into Weekly Digest
+- If a correspondent post touches a framework topic:
+  → Must be referenced or reinforced in Sunday Brief within 2 weeks
+
+**Drift Guard**:
+If >3 correspondent posts in a week OR zero framework linkage in 3 weeks:
+→ Suspend correspondent engine for 1 week
 
 ### Weekly Recap (Saturday)
 
@@ -532,10 +632,47 @@ Example: "Great question. The difference between GMV and revenue is... [explanat
 
 ---
 
+---
+
+## SECTION 11: SIGNATURE METRIC SYSTEM (BRAND IMPRINTING)
+
+Each week MUST select exactly ONE signature metric as the weekly anchor:
+- Cash Conversion Ratio (CCR)
+- CFO/PAT Ratio
+- Earnings Yield vs Bond Yield
+- Working Capital Days
+- ROCE/ROE Gap
+- Promoter Pledge Velocity
+- Custom metrics fitting the week's theme
+
+This metric must:
+- Appear in at least one main post (Sunday/Tuesday/Friday)
+- Be referenced across multiple posts when applicable
+- Be logged in `frameworks_index.md` as "Weekly Anchor Metric"
+
+**Purpose**: Brand imprinting—readers start to expect and look for Niveshak's signature metric lens.
+
+---
+
+## SECTION 12: MAINTENANCE & QUARTERLY REVIEWS
+
+### Quarterly Model Stack Review
+
+**First Saturday of Q2, Q3, Q4, Q1**:
+- Re-benchmark model performance across all 12 engines
+- Replace any engine whose output quality degrades
+- Validate wrapper quality (Perplexity, Antigravity)
+- Document any model changes in this file
+
+**Metric**: If > 30% of Red Team verdicts are REWRITE/KILL for a specific engine → investigate model performance
+
+---
+
 **Last Updated**: 21 January 2026  
 **Version**: 1.0  
 **Status**: Canonical — All other docs derive from this
 
 ---
 
-*This document is the institutional operating system. All engines must reference it. All processes must align with it.*
+*This document is the institutional operating system. All engines must reference it. All processes must align with it.  
+Execution authority: `04-operations/daily_checklist.md`*
