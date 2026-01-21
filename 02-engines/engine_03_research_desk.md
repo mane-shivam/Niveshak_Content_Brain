@@ -319,8 +319,20 @@ Before passing research brief to Chief Strategist:
 **Uses output from**:
 - Signal Collector (governance flags, regulatory context)
 
+
 ---
 
-**Last Updated**: 21 January 2026  
-**Version**: 1.0  
+## HANDOFF TO APEX SYNTHESIZER
+
+Before sending to Engine 04, ensure research brief includes:
+- Final verified killer metrics
+- Governance flags (if any)
+- Regime notes (if macro relevant)
+- 3 candidate thesis angles
+- 1 potential invalidation path
+
+---
+
+**Last Updated**: 22 January 2026  
+**Version**: 1.1  
 **Status**: Production

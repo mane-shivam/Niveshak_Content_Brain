@@ -54,10 +54,10 @@ Niveshak teaches before reacting. Structure:
 | **Chief Strategist** | ChatGPT 5.2 Thinking (o1) | Best long-arc sequencing, worldview memory, strategic planning |
 | **Signal Collector** | Grok Pro + Perplexity Pro | Real-time sentiment, policy tracking, regulatory filings |
 | **Research Desk** | Gemini Deep Research + ChatGPT Deep Research | Volume + precision for quarterly deep dives |
-| **Apex Synthesizer** | Claude Sonnet 3.5 / GPT-4o | Editorial Brain, Continuity, Voice Enforcer (The "Editor-in-Chief") |
-| **Sunday Brief** | ChatGPT 5.2 | Framework synthesis and teaching (Drafting Module) |
-| **Tuesday Audit** | ChatGPT + Gemini Deep Research | Quarterly forensics (Drafting Module) |
-| **Friday Macro** | ChatGPT 5.2 | Regime diagnosis (Drafting Module) |
+| **Apex Synthesizer** | Claude Sonnet 3.5 / GPT-4o | Editorial Brain, Continuity, Voice Enforcer (The "Editor-in-Chief") **[CORE]** |
+| **Sunday Brief** | ChatGPT 5.2 | Framework synthesis and teaching (Apex Drafting Mode) |
+| **Tuesday Audit** | ChatGPT + Gemini Deep Research | Quarterly forensics (Apex Drafting Mode) |
+| **Friday Macro** | ChatGPT 5.2 | Regime diagnosis (Apex Drafting Mode) |
 | **Platform Adapter** | ChatGPT + Claude | Voice preservation across platforms |
 | **Red Team** | Claude Sonnet 4.5 | Best adversarial reasoning, challenges assumptions |
 | **Comment Engine** | ChatGPT | Audience engagement |
@@ -141,7 +141,8 @@ If any conflict exists: daily_checklist.md overrides this document.
 
 **Regime-Level Analysis**
 **Regime-Level Analysis**
-- Engine: Chief Strategist → Signal Collector → **Apex Synthesizer** → Red Team → Platform Adapter → Visual Intelligence
+**Regime-Level Analysis**
+- Engine: Chief Strategist → Signal Collector → **Apex Synthesizer** (Draft) → Red Team → Platform Adapter → Visual Intelligence
 - Attach: Signals brief, Bible
 - Output: Macro/regime post
 - Update: `post_index.md`, `weekly_market_signals.md`
@@ -324,7 +325,7 @@ Provide sources for all data.
 
 ---
 
-### ENGINE 4: APEX SYNTHESIZER
+### ENGINE 04: APEX SYNTHESIZER [CORE / NON-SKIPPABLE]
 
 **Model**: Claude Sonnet 3.5 / GPT-4o
 **Purpose**: Editorial Brain, Final Master Draft, Continuity Guardian
@@ -342,21 +343,21 @@ Provide sources for all data.
 
 ---
 
-### ENGINES 5-14: REMAINING SPECIFICATIONS
+### ENGINES 05-14: REMAINING SPECIFICATIONS
 
-**ENGINE 5: SUNDAY BRIEF** → `02-engines/engine_05_sunday_brief.md`
-Model: ChatGPT 5.2 | Purpose: Framework analysis (Drafting Helper)
+**ENGINE 05: SUNDAY BRIEF** → `02-engines/engine_05_sunday_brief.md`
+Model: ChatGPT 5.2 | Purpose: Framework analysis (Apex Drafting Mode)
 
-**ENGINE 6: TUESDAY AUDIT** → `02-engines/engine_06_tuesday_audit.md`
-Model: ChatGPT + Research Desk | Purpose: Quarterly forensics (Drafting Helper)
+**ENGINE 06: TUESDAY AUDIT** → `02-engines/engine_06_tuesday_audit.md`
+Model: ChatGPT + Research Desk | Purpose: Quarterly forensics (Apex Drafting Mode)
 
-**ENGINE 7: FRIDAY MACRO** → `02-engines/engine_07_friday_macro.md`
-Model: ChatGPT 5.2 | Purpose: Regime analysis (Drafting Helper)
+**ENGINE 07: FRIDAY MACRO** → `02-engines/engine_07_friday_macro.md`
+Model: ChatGPT 5.2 | Purpose: Regime analysis (Apex Drafting Mode)
 
-**ENGINE 8: PLATFORM ADAPTER** → `02-engines/engine_08_platform_adapter.md` (See Section 5 for Red Team/Adapter details, renumbered)
+**ENGINE 08: PLATFORM ADAPTER** → `02-engines/engine_08_platform_adapter.md` (See Section 5 for Red Team/Adapter details, renumbered)
 Model: ChatGPT + Claude | Purpose: Voice preservation
 
-**ENGINE 9: RED TEAM** → `02-engines/engine_09_red_team.md`
+**ENGINE 09: RED TEAM** → `02-engines/engine_09_red_team.md`
 Model: Claude Sonnet 4.5 | Purpose: Adversarial challenge
 
 **ENGINE 10: COMMENT ENGINE** → `02-engines/engine_10_comment_engine.md`

@@ -37,6 +37,26 @@
 
 ## EXAMPLE ENTRY
 
+### Global System Architecture Update — 22 Jan 2026
+
+**Version**: v1.1 (Major)
+**Changed By**: User Request (Emergency Patch)
+**Reason**: Separation of Concerns. Research was leaking into drafting. Needed a dedicated "Editorial Brain" layer.
+
+**Changes**:
+1. **Added Engine 04**: Apex Synthesizer (Editorial Brain)
+2. **Renumbered**: All downstream engines shifted +1 (04-Sunday became 05-Sunday, etc.)
+3. **Pipeline Update**: Research Desk → Apex Synthesizer → Red Team
+4. **Safety**: Mandatory synthesis layer to enforce house voice and framework continuity.
+
+**Validation**:
+- [x] All 14 engine files exist and are numbered correctly
+- [x] OS Document updated with new pipeline
+- [x] Daily Checklist updated with new engine numbers and flow
+- [x] Downstream engines (Red Team, Adapter, Visuals) now require Apex Master Draft input
+
+---
+
 ### Engine 01: Chief Strategist — 28 Jan 2026
 
 **Version**: v1.1  

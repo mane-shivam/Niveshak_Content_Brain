@@ -644,10 +644,10 @@ If engagement quality falling 2 weeks in a row:
 
 ### 1:20PM–2:00PM: MONTHLY DRIFT CHECK (First Saturday Only)
 
-**Engine**: Chief Editor (ChatGPT 5.2 Thinking)
+**Engine**: Chief Editor (Engine 11 - ChatGPT 5.2 Thinking)
 
 **Files to Open**:
-- `02-engines/engine_10_chief_editor.md`
+- `02-engines/engine_11_chief_editor.md`
 - Last month's post_index entries
 - `04-operations/monthly_drift_check.md`
 
