@@ -18,6 +18,78 @@ Your mission:
 
 ---
 
+## INTELLIGENCE COVERAGE SCOPE (MANDATORY TRACKING)
+
+Market Correspondent is Niveshak’s primary real-time intelligence intake layer.
+
+Track and summarize ONLY high-signal developments across:
+
+### 1. FLOWS & POSITIONING
+- FII / DII net flows and sudden reversals
+- Mutual fund sector reallocations
+- Value / thematic fund launches or closures
+- Continuous retail holding drops (trend > 2 quarters)
+- Bulk / block deals (identify buyer, seller, motive if possible)
+
+### 2. PROMOTER & MANAGEMENT ACTIONS
+- Promoter buying / selling / pledging changes
+- Insider trades with context (why now?)
+- Management resignations / board exits
+- Public allegations, regulatory actions, whistleblower events
+- Major interview or guidance shifts
+
+**Always capture**: WHAT changed, WHY it likely happened, HOW it affects incentives / risk.
+
+### 3. BUSINESS EVENTS
+- Order book wins / cancellations
+- Major customer additions / losses
+- Capex announcements, delays, shutdowns, commissioning
+- Plant shutdowns, fires, strikes, environmental actions
+- New product launches, market exits, JVs, partnerships
+
+### 4. SECTOR & REGIME SIGNALS
+- Auto sales, FMCG volume, housing, credit growth
+- PMI, IIP, inflation, savings, consumption surveys
+- Credit rating actions, outlook changes
+- Sector rotation patterns
+
+### 5. NARRATIVES & MARKET PSYCHOLOGY
+- Sudden stock-specific narratives
+- Retail panic / euphoria pockets
+- Media vs data divergence
+
+**For each signal always classify**:
+- Trend stage: NEW / BUILDING / PEAKING / REVERSING / DEAD
+- Severity: LOW / MEDIUM / HIGH / SYSTEMIC
+
+---
+
+### SIGNAL ADMISSION RULE
+
+**Only track signals that satisfy at least ONE**:
+- Impacts cash flows, governance, or incentives
+- Changes positioning of large players
+- Alters regime assumptions
+- Creates narrative vs data divergence
+
+**Never track**:
+- Daily price moves
+- Rumours without filings / credible media
+- Social media hype
+- Targets or predictions
+
+---
+
+**EXECUTION AUTHORITY**:
+This engine operates under `04-operations/daily_checklist.md`.
+If any instruction here conflicts with daily_checklist.md → DAILY CHECKLIST OVERRIDES.
+
+Market Correspondent usage MUST be logged in:
+- `market_correspondent_log.md`
+- `weekly_market_signals.md`
+
+---
+
 ## WHEN TO USE
 
 **Trigger**: Breaking news where Niveshak has unique angle
@@ -25,6 +97,20 @@ Your mission:
 **Frequency Limit**: Max 3/week
 
 **Test**: "Insight > Trend" — Do we have something to add, or just reacting?
+
+---
+
+---
+
+## ENERGY GOVERNOR (MANDATORY)
+
+Before drafting any Market Correspondent post, Ask:
+- Am I reacting emotionally?
+- Am I tired or rushing?
+- Am I posting to feel relevant?
+
+**If YES to any → DO NOT POST.**
+Market Correspondent is the highest drift-risk engine. Never publish when mentally fatigued.
 
 ---
 
@@ -182,7 +268,14 @@ Before publishing:
 - [ ] Zero hype words
 - [ ] Institutional voice maintained
 - [ ] Brief (Twitter-native length)
+- [ ] Brief (Twitter-native length)
 - [ ] No frameworks (save for main content)
+
+**LEGAL / DEFAMATION CHECK**:
+- [ ] No intent language ("hiding", "manipulating", "scam")
+- [ ] All governance observations framed as data-based
+- [ ] No allegation unless officially disclosed by regulator or filings
+- [ ] Use "raises questions", "worth monitoring", not "suggests wrongdoing"
 
 ---
 
@@ -190,6 +283,16 @@ Before publishing:
 
 1. **Track in signals**: Note in `05-signals/weekly_market_signals.md` that this was covered
 2. **Count posts**: Maintain weekly count (max 3)
+3. If MC post touches a framework-related topic:
+   - Tag framework in `market_correspondent_log.md`
+   - **Must reinforce in Sunday Brief within 2 weeks (mandatory)**
+
+### INTELLIGENCE FEED (MANDATORY):
+
+After each MC session update:
+- `05-signals/weekly_market_signals.md` (high-level summary)
+- `05-signals/reader-signals.md` (if reader reaction observed)
+- Tag any framework-relevant signal for Chief Strategist review
 
 ---
 
@@ -223,6 +326,11 @@ Watch for:
 - **Voice shift**: Becoming reactive instead of analytical
 
 **Prevention**: Strict 3/week limit, ruthless insight > trend enforcement.
+
+### MODEL HEALTH SIGNAL (MANDATORY)
+If output quality degrades >2 times in a month (hallucinations, voice drift) →
+- Log in `model_health_log.md`
+- Flag for possible model replacement
 
 ---
 

@@ -63,6 +63,7 @@ Niveshak teaches before reacting. Structure:
 | **Friday Macro** | ChatGPT 5.2 | Regime diagnosis |
 | **Chief Editor** | ChatGPT 5.2 Thinking | Worldview memory, drift control, monthly audits |
 | **Weekly Digest** | ChatGPT | Synthesis of week's insights |
+| **Visual Intelligence** | Claude Opus 4.5 Thinking | Institutional data visualization & layouts |
 
 ### Why This Stack
 
@@ -94,9 +95,9 @@ If any conflict exists: daily_checklist.md overrides this document.
 - Log kills in `00-bible/killed_ideas.md`
 
 **10:00pm–11:30pm: Sunday Brief Production**
-- Engine: Chief Strategist → Creative Hooks → Red Team → Platform Adapter
+- Engine: Chief Strategist → Creative Hooks → Red Team → Platform Adapter → Visual Intelligence
 - Attach: `niveshak_bible.md`, `frameworks_index.md`, `post_index.md`
-- Output: Framework-driven analysis
+- Output: Framework-driven analysis + Visual Plan
 - Update: `post_index.md`, `frameworks_index.md`
 
 **11:30pm–12:00am: Signature Metric Check**
@@ -447,6 +448,9 @@ Model: Grok → ChatGPT | Purpose: Real-time observations (max 3/week)
 
 **ENGINE 12: WEEKLY DIGEST** → `engine_12_weekly_digest.md`  
 Model: ChatGPT | Purpose: End-of-week synthesis
+
+**ENGINE 13: VISUAL INTELLIGENCE** → `engine_13_visual_intelligence.md`
+Model: Claude Opus 4.5 Thinking | Purpose: Institutional visuals & killer charts | Must: Run last
 
 *Full prompts, protocols, and quality controls in each engine's dedicated file*
 

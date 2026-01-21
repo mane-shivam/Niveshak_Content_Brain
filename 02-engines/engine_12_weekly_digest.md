@@ -16,6 +16,11 @@ Your mission:
 - Preview next week's focus
 - Maintain institutional voice
 
+**EXECUTION AUTHORITY**:
+This engine operates under `04-operations/daily_checklist.md`.
+If any instruction here conflicts with daily_checklist.md → DAILY CHECKLIST OVERRIDES.
+Weekly Digest runs ONLY on Saturday as defined in Daily Checklist.
+
 ---
 
 ## WHEN TO USE
@@ -51,7 +56,8 @@ STRUCTURE:
 1. WEEK SUMMARY (What we covered)
 2. FRAMEWORKS REINFORCED (Which mental models we used/taught)
 3. KEY LEARNINGS (Main takeaways across posts)
-4. PREVIEW (What's coming next week)
+4. CORRECTIONS / UPDATES (if any this week)
+5. PREVIEW (What's coming next week)
 
 REQUIREMENTS:
 - Institutional voice (calm, professional, not promotional)
@@ -129,6 +135,11 @@ KEY LEARNINGS:
 2. [Key learning 2]
 3. [Key learning 3]
 
+**SIGNATURE LEARNING OF THE WEEK**:
+[One sentence capturing the deepest insight from this week. This becomes part of institutional memory.]
+
+[If common thread exists]:
+
 [If common thread exists]:
 The common thread this week: [describe thematic connection between posts].
 
@@ -164,9 +175,10 @@ Before publishing:
 
 ## FILES TO UPDATE AFTER RUN
 
-1. **Log emerging framework**: If new framework identified, add to `04-operations/idea_backlog.md` (as candidate)
-2. **Log reinforced framework**: Update `00-bible/frameworks_index.md`
-3. **Log failed narrative**: If "narrative that broke" identified, log in `04-operations/failure_log.md`
+1. **Add Digest entry to `post_index.md`** (tag as META)
+2. **Add reinforced frameworks to `frameworks_index.md`** reinforcement count
+3. **If new theme emerges → add 1 bullet to `niveshak_bible.md`** under Emerging Thoughts
+4. If "narrative that broke" identified, log in `04-operations/failure_log.md`
 
 ---
 
@@ -190,6 +202,11 @@ Watch for:
 - **Getting formulaic**: Same structure every week without thought
 
 **Prevention**: Always ask "What did readers learn this week?" not "What did we publish?"
+
+### MODEL HEALTH SIGNAL (MANDATORY)
+If output quality degrades >2 times in a month →
+- Log in `model_health_log.md`
+- Flag for possible model replacement
 
 ---
 

@@ -13,9 +13,11 @@ This index tracks every piece of content published by Niveshak. It serves four c
 
 ## 📋 POST TRACKING SCHEMA
 
-| # | Date | Title | Type | Framework Used | Signature Metric | Governance Angle | Invalidation Metric | Status |
-|---|------|-------|------|----------------|------------------|------------------|---------------------|--------|
-| 01 | _15 Jan 2026_ | _Example: Zomato's Marketing Paradox_ | _Sunday Brief_ | _Operating Leverage_ | _Marketing spend / Order volume_ | _None_ | _If marketing spend rises >15% QoQ_ | _Published_ |
+**Rule**: Always log PUBLIC LINK, not content text.
+
+| Date | Platform | Title | Link | Frameworks Used | Signature Metric | Invalidation Metric | Killer Visual Used | Visual Type | Notes |
+|------|----------|-------|------|-----------------|------------------|---------------------|--------------------|-------------|-------|
+| 15 Jan 2026 | Twitter | Zomato's Paradox | [Link] | Operating Leverage | Marketing spend / Orders | Spend >15% QoQ | Yes | Chart | High engagement |
 
 ---
 

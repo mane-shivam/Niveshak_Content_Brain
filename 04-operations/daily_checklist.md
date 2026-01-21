@@ -228,6 +228,22 @@ OUTPUT:
 
 ---
 
+#### Step 5: Visual Intelligence Engine (MANDATORY)
+
+**Engine**: Visual Intelligence (Claude Opus 4.5 Thinking)
+**Action**:
+- Attach final approved post
+- Run Engine 13 starter prompt
+- Generate visual plan and killer visual
+
+**Checklist**:
+- [ ] At least 1 MUST-HAVE visual created
+- [ ] Killer visual identified and prepared
+- [ ] Low-value visuals removed
+- [ ] No decorative or hype visuals
+
+---
+
 ### 11:30PM–12:00AM: FINAL CHECKS & UPDATES
 
 **Quality Gate Checklist** (ALL must pass):
@@ -248,7 +264,8 @@ OUTPUT:
 - Log in `00-bible/frameworks_index.md` under "Weekly Anchor Metrics"
 
 **Files to Update**:
-1. `00-bible/post_index.md` — Add new entry
+**Files to Update**:
+1. `00-bible/post_index.md` — Add new entry (Log PUBLIC LINK, not content text; Log "Killer Visual Used" = Yes/No)
 2. `00-bible/frameworks_index.md` — Update "Last Reinforced" if existing framework used
 3. `00-bible/frameworks_index.md` — Log weekly signature metric selection
 
@@ -345,6 +362,7 @@ Follow same process as Sunday Brief:
 2. Contrarian Validator (if governance/regulatory angle)
 3. Red Team challenge (including legal/defamation check)
 4. Platform Adapter
+5. Visual Intelligence Engine (MANDATORY)
 
 **Key Difference**: Tuesday Audit MUST include governance lens (it's a Niveshak signature)
 
@@ -448,12 +466,31 @@ Follow Sunday/Tuesday process:
 2. Contrarian Validator (MANDATORY for all macro posts)
 3. Red Team challenge (including legal check)
 4. Platform Adapter
+5. Visual Intelligence Engine (Regime visual mandatory)
 
 **Focus**: Regime diagnosis— connect policy/regulatory changes to business impact
 
 **Files to Update**:
 - `00-bible/post_index.md`
 - `05-signals/weekly_market_signals.md`
+
+### 9:15 PM — READER SIGNAL MINING (15 MIN)
+
+**Purpose**: Capture audience intelligence before it disappears.
+
+**Open**: Twitter/LinkedIn/Reddit threads from this week
+
+**Action**:
+Copy high-signal comments into `05-signals/reader-signals.md` (Confusion questions, Topic requests, Aha moments, Smart pushback).
+
+**Rules**:
+- Ignore praise
+- Ignore stock tips
+- Ignore predictions
+
+**Output**:
+- Update weekly section in `reader-signals.md`
+- Tag 1–2 insights for Chief Strategist review
 
 ---
 
@@ -612,6 +649,7 @@ OUTPUT: Drift audit report with specific recommendations
 - Sunday Brief ✓
 - Tuesday Audit ✓
 - Friday Macro ✓
+- Reader Signal Mining completed ✓
 
 **Optional** (Max 3/week):
 - Market Correspondent posts (only if insight > trend)
@@ -625,6 +663,8 @@ OUTPUT: Drift audit report with specific recommendations
 - Weekly signature metric selected and logged
 - Model Health Check completed
 - Engagement Quality Review completed
+- Visual Intelligence Engine run for all analytical posts
+- Killer visual created for each Sunday / Tuesday / Friday post
 - Archive Hygiene maintained
 
 **Market Correspondent Tracking** (if used this week):
