@@ -1,6 +1,10 @@
 # ENGINE 02: SIGNAL COLLECTOR
 
 **Model**: Grok Pro + Perplexity Pro  
+Thread Link: 
+1. Grok: https://x.com/i/grok?conversation=2013290728127086741
+2. Perplexity Pro (Use research mode): https://www.perplexity.ai/search/role-senior-market-intelligenc-.DVQ0RAoRuaPfDNJlnGjfQ
+** Gemini: https://gemini.google.com/u/1/app/5212b854514af9ed
 **Purpose**: Real-time market intelligence focusing on structural changes, not noise
 
 ---

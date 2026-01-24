@@ -94,7 +94,7 @@ Find: [Specific type of hole—logical gaps / missing data / alternative explana
 
 ## FILES TO ATTACH EVERY TIME
 
-1. **Apex Master Draft (Engine 04 Output)**
+1. **Polished Draft (Engine 04.1 Output)** — NOT raw Apex draft
 2. `00-bible/niveshak_bible.md` (to check alignment with philosophy)
 
 Optional:

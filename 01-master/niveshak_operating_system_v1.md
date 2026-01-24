@@ -20,6 +20,24 @@ This hierarchy prevents drift when documentation evolves at different speeds.
 
 ---
 
+## RUN TRACE SYSTEM (CRITICAL — THE EXECUTION BLACK BOX)
+
+**Folder**: `04-operations/run_traces/`  
+**Template**: `run_trace_template.md`
+
+**Purpose**: Ground truth log for every automation run containing:
+- Raw engine outputs (verbatim)
+- Human overrides
+- Approval decisions
+- Timestamps
+- Failure flags
+
+**Rule**: After EACH engine step, append engine block to run trace. Next engine reads input FROM THIS FILE ONLY.
+
+**Archive**: At end of run, lock file and move to `archive/run_traces/`.
+
+---
+
 This is the single canonical document encoding the entire Niveshak content production system. Everything else in this repository expands on what's defined here.
 
 ---
@@ -53,8 +71,10 @@ Niveshak teaches before reacting. Structure:
 |--------|-------|------------|
 | **Chief Strategist** | ChatGPT 5.2 Thinking (o1) | Best long-arc sequencing, worldview memory, strategic planning |
 | **Signal Collector** | Grok Pro + Perplexity Pro | Real-time sentiment, policy tracking, regulatory filings |
+| **Perplexity Validation** | Perplexity Pro (Research Mode) | **MANDATORY** data validation before Research Desk |
 | **Research Desk** | Gemini Deep Research + ChatGPT Deep Research | Volume + precision for quarterly deep dives |
 | **Apex Synthesizer** | Claude Sonnet 3.5 / GPT-4o | Editorial Brain, Continuity, Voice Enforcer (The "Editor-in-Chief") **[CORE]** |
+| **Final Polishing** | Claude (Sonnet/Opus) | Clarity, rhythm, human voice refinement (Post-Apex) |
 | **Sunday Brief** | ChatGPT 5.2 | Framework synthesis and teaching (Apex Drafting Mode) |
 | **Tuesday Audit** | ChatGPT + Gemini Deep Research | Quarterly forensics (Apex Drafting Mode) |
 | **Friday Macro** | ChatGPT 5.2 | Regime diagnosis (Apex Drafting Mode) |
@@ -108,7 +128,14 @@ If any conflict exists: daily_checklist.md overrides this document.
 
 ### Monday (Research Day)
 
-**Research for Tuesday Audit**
+**10:00am–10:30am: Perplexity Pro Validation (MANDATORY)**
+- Engine: Perplexity Pro (Research Mode)
+- Thread: https://www.perplexity.ai/search/validate-all-financial-data-ac-QHWhLz72QE.ORX06I0upag
+- Prompt: "Validate all financial data, accounting claims, regulatory references. List contradictions, missing disclosures, weak assumptions. Cite sources where possible."
+- Input: Raw signals from Signal Collector (E02)
+- **BLOCK**: Do NOT proceed to Deep Research until validation passes
+
+**10:30am–2:00pm: Research for Tuesday Audit**
 - Engine: Research Desk (Gemini + ChatGPT Deep Research)
 - Collect: Quarterly filings, earnings call transcripts, regulatory updates
 - Output: Research brief for Tuesday

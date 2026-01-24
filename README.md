@@ -54,6 +54,12 @@ This prevents drift when documentation evolves at different speeds.
 
 **New Operator Safety**: New team members require Chief Editor approval for all publications during first 4 weeks.
 
+### 🧠 Run Trace System (The Execution Black Box)
+
+**Folder**: [`04-operations/run_traces/`](04-operations/run_traces/)
+
+After EACH engine step, append raw output to the run trace file. This is the ONLY source of input for the next engine. Never read from chat threads.
+
 ---
 
 ## 📅 WEEKLY CADENCE
@@ -86,8 +92,10 @@ Each engine has a specific role, model, and prompt protocol:
 |---|--------|-------|---------|
 | 01 | **Chief Strategist** | ChatGPT 5.2 Thinking | Long-arc planning, framework development, worldview memory |
 | 02 | **Signal Collector** | Grok Pro + Perplexity Pro | Real-time regulatory/policy/governance intelligence |
+| 02.5 | **Perplexity Validation** | Perplexity Pro (Research) | **MANDATORY** data validation before Engine 03 |
 | 03 | **Research Desk** | Gemini + ChatGPT Deep Research | Forensic quarterly analysis, data collection |
 | 04 | **Apex Synthesizer** | Claude Sonnet / GPT-4o | Editorial Brain, Continuity, Final Master Draft |
+| 04.1 | **Final Polishing** | Claude (Sonnet/Opus) | Clarity, rhythm, human voice refinement |
 | 05 | **Sunday Brief** | ChatGPT 5.2 | Framework-driven weekly posts (Drafting Helper) |
 | 06 | **Tuesday Audit** | ChatGPT + Research Desk | Quarterly forensic deep-dives (Drafting Helper) |
 | 07 | **Friday Macro** | ChatGPT 5.2 | Regime diagnosis and policy analysis (Drafting Helper) |
@@ -98,6 +106,7 @@ Each engine has a specific role, model, and prompt protocol:
 | 12 | **Market Correspondent** | Grok → ChatGPT | Real-time observations (max 3/week) |
 | 13 | **Weekly Digest** | ChatGPT | End-of-week synthesis |
 | 14 | **Visual Intelligence** | Claude Opus 4.5 Thinking | Institutional visuals & killer charts |
+| 15 | **Automation Operator** | Comet (Engine 13) | Autonomous execution layer |
 
 **Full specifications**: See [`02-engines/`](02-engines/) folder
 

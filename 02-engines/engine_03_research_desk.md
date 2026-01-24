@@ -1,7 +1,14 @@
 # ENGINE 03: RESEARCH DESK
 
-**Model**: Gemini Deep Research + ChatGPT Deep Research  
+**Model**: Perplexity Pro (Validation) → Gemini Deep Research → ChatGPT Deep Research  
 **Purpose**: Forensic quarterly analysis, deep data collection for Tuesday Audits
+
+**Thread Links**:
+| Step | Model | Thread |
+|------|-------|--------|
+| 1. Validation | Perplexity Pro (Research Mode) | https://www.perplexity.ai/search/validate-all-financial-data-ac-QHWhLz72QE.ORX06I0upag |
+| 2. Deep Research | Gemini DR | https://gemini.google.com/app/276149c16bcf2ff6 |
+| 3. Context Research | ChatGPT DR | https://chatgpt.com/c/696e6376-94e4-8323-945a-4617d031f5cc |
 
 ---
 
@@ -24,15 +31,44 @@ You are Niveshak's Research Desk. You conduct institutional-grade forensic analy
 **Monday** (for Tuesday Audit publication)
 
 Timeline:
-- Monday 10am-2pm: Deep research
-- Monday 3pm-5pm: Synthesis
-- Output: Research brief ready for Chief Strategist
+- Monday 10:00am–10:30am: **Perplexity Validation (MANDATORY)**
+- Monday 10:30am–2:00pm: Deep research
+- Monday 3:00pm–5:00pm: Synthesis
+- Output: Research brief ready for Apex Synthesizer
 
 ---
 
-## INITIAL THREAD STARTER PROMPT
+## STEP 1: PERPLEXITY PRO VALIDATION (MANDATORY PRE-STEP)
 
-### For Gemini Deep Research
+> ⚠️ **This step is NON-NEGOTIABLE before proceeding with Deep Research.**
+
+**Model**: Perplexity Pro (Research Mode REQUIRED)  
+**Thread**: https://www.perplexity.ai/search/validate-all-financial-data-ac-QHWhLz72QE.ORX06I0upag
+
+**Input**: Raw signals from Engine 02 (Signal Collector)
+
+**Prompt**:
+```
+Validate all financial data, accounting claims, regulatory references.
+List contradictions, missing disclosures, weak assumptions.
+Cite sources where possible.
+
+RAW SIGNALS INPUT:
+[Paste raw signals data from Engine 02 here]
+```
+
+**Validation Gate Checklist**:
+- [ ] Raw signals received from Signal Collector (E02)
+- [ ] Perplexity Pro validation run (Research Mode)
+- [ ] Contradictions listed and reviewed
+- [ ] Weak assumptions flagged
+- [ ] Sources cited where possible
+
+**CRITICAL**: Do NOT proceed to Step 2 until validation passes.
+
+---
+
+## STEP 2: GEMINI DEEP RESEARCH PROMPT
 
 ```
 You are Niveshak's Research Desk. Conduct forensic analysis of [COMPANY NAME] Q[X] FY[XX] results.
@@ -80,7 +116,7 @@ EXTRACT THE FOLLOWING:
 OUTPUT: Comprehensive research brief with all sources cited (investor presentation, earnings call transcript, BSE/NSE filings)
 ```
 
-### For ChatGPT Deep Research
+## STEP 3: CHATGPT DEEP RESEARCH PROMPT (CONTEXT)
 
 ```
 You are Niveshak's Research Desk. Provide supplementary deep research on [COMPANY NAME].

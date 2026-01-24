@@ -90,7 +90,7 @@ Maintain: Institutional tone, value-focus, brevity.
 
 ## FILES TO ATTACH EVERY TIME
 
-1. **Apex Master Drafts for this week** (Sunday/Tuesday/Friday)
+1. **Polished Drafts for this week** (Sunday/Tuesday/Friday from Engine 04.1)
 2. `00-bible/frameworks_index.md `(framework context)
 3. `00-bible/post_index.md` (for tracking)
 4. `00-bible/niveshak_bible.md` (voice rules)

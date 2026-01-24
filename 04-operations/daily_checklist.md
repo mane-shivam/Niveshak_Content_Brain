@@ -34,6 +34,32 @@ Only then begin execution.
 
 ---
 
+## 🧠 RUN TRACE SYSTEM (CRITICAL FOR TRACEABILITY)
+
+**Folder**: `04-operations/run_traces/`  
+**Template**: `run_trace_template.md`
+
+**What It Is**: A consolidated live document tracking ALL raw outputs from each engine step.
+
+**Why**:
+1. **Anti-Hallucination**: Next engine picks up exact output from trace, not from threads
+2. **Easy Handoff**: All outputs consolidated in one place
+3. **Quality Audit**: Review all steps to track model performance
+4. **Traceability**: Complete log for debugging
+5. **Training Corpus**: Clean data for future model fine-tuning
+
+**Process**:
+1. At start of run: Copy template → `run_YYYY_MM_DD_HHMM_[workflow].md`
+2. After each engine: Append engine block with raw output
+3. Fill in "Final Output Passed Forward" section
+4. Next engine reads input FROM THIS SECTION (not threads)
+5. At end of run: Mark as LOCKED
+6. Archive to `archive/run_traces/`
+
+**Rule**: NEVER proceed to next engine without populating the run trace.
+
+---
+
 ## ⏰ DRAFTING WINDOW RULE
 
 **Primary writing window**: Evenings (post-9pm)  
@@ -172,6 +198,32 @@ Second-order implication:
 
 ---
 
+#### Step 1.5: Final Polishing (Engine 04.1)
+
+**Engine**: Claude (Sonnet/Opus)
+
+**Thread Link**: https://claude.ai/chat/d6d6f36b-45bc-443b-9546-c844e53ee40a
+
+**Files to Open**:
+- `02-engines/engine_04.1_final_polishing.md`
+
+**Prompt** (to Claude):
+```
+Rewrite ONLY for clarity, rhythm, and human voice.
+Preserve all data, numbers, and structure.
+Do not simplify or add claims.
+Flag any sentence that sounds artificial.
+
+INPUT (Apex Master Draft):
+[Paste Engine 04 output here]
+```
+
+**Expected Output**: Polished draft + flagged sentences + changes log
+
+**CRITICAL**: Do NOT proceed to Red Team until polishing complete.
+
+---
+
 #### Step 2: Contrarian Validator (For Macro/Governance/Novel Framework Posts)
 
 **Engine**: Perplexity Pro
@@ -305,7 +357,38 @@ OUTPUT:
 
 ## 🔵 MONDAY | RESEARCH DAY
 
-### 10:00AM–2:00PM: DEEP RESEARCH (Tuesday Audit Prep)
+### 10:00AM–10:30AM: PERPLEXITY PRO DATA VALIDATION (MANDATORY PRE-STEP)
+
+**Engine**: Perplexity Pro (Research Mode REQUIRED)
+
+**Thread Link**: https://www.perplexity.ai/search/validate-all-financial-data-ac-QHWhLz72QE.ORX06I0upag
+
+**Pre-Research Validation Process**:
+1. Collect raw signals from Signal Collector (Engine 02)
+2. Open Perplexity Pro in Research Mode
+3. Run the validation prompt:
+
+```
+Validate all financial data, accounting claims, regulatory references.
+List contradictions, missing disclosures, weak assumptions.
+Cite sources where possible.
+
+RAW SIGNALS INPUT:
+[Paste raw signals data from Engine 02 here]
+```
+
+**Validation Gate Checklist**:
+- [ ] Raw signals received from Signal Collector (E02)
+- [ ] Perplexity Pro validation run (Research Mode)
+- [ ] Contradictions listed and reviewed
+- [ ] Weak assumptions flagged
+- [ ] Sources cited where possible
+
+**CRITICAL**: Do NOT proceed to Deep Research until this validation passes.
+
+---
+
+### 10:30AM–2:00PM: DEEP RESEARCH (Tuesday Audit Prep)
 
 **Engine**: Research Desk (Gemini Deep Research + ChatGPT Deep Research)
 

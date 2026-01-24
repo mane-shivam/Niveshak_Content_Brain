@@ -1,0 +1,15 @@
+{
+  "session_id": "",
+  "active_branch": "",
+  "current_engine": "",
+  "status": "IDLE",
+  "workflow_type": "",
+  "last_action": "",
+  "waiting_since": "",
+  "last_updated": "",
+  "run_trace_file": "",
+  "run_trace_last_engine_completed": "",
+  "total_engines_completed": 0,
+  "human_overrides_count": 0,
+  "failures_count": 0
+}

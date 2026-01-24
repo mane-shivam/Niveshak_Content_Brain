@@ -1,6 +1,7 @@
 # ENGINE 01: CHIEF STRATEGIST
 
 **Model**: ChatGPT 5.2 Thinking (o1)  
+Thread Link (thinking mode must be enabled): https://chatgpt.com/c/696e5d42-ff44-8323-b81f-d98d1a2187c9
 **Purpose**: Long-arc strategic planning, framework development, worldview memory keeper
 
 ---

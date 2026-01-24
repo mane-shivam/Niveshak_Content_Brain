@@ -61,7 +61,7 @@ Before:
 ## 📂 FILES TO ATTACH
 
 Always attach:
-- **Apex Master Draft (Engine 04 Output)**
+- **Polished Draft (Engine 04.1 Output)** — NOT raw Apex draft
 - `00-bible/niveshak_bible.md` (voice & bans)
 - Platform files:
   - `03-platforms/twitter_thread.md`
