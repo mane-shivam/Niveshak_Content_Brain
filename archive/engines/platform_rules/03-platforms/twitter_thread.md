@@ -7,9 +7,8 @@
 ## STRUCTURE
 
 ### Thread Length
-- **Minimum**: 5 tweets
-- **Maximum**: 12 tweets
-- **Sweet Spot**: 7-9 tweets
+- **Maximum**: 3 tweets
+- **Sweet Spot**: 2- tweets
 
 ### Thread Flow
 1. **Hook Tweet**: Signature metric or surprising contrast
