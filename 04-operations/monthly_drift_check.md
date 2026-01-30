@@ -102,13 +102,13 @@ Review from `model_health_log.md` + individual engine outputs:
 
 ### Monthly Engine Performance Audit
 
-#### ENGINE 04.1 — Draft Generator
+#### ENGINE 04A — Draft Generator
 - [ ] % examples rejected by verification: ____
 - [ ] Hallucination rate: ____
 - [ ] Target: <20% example rejection, 0% hallucination
 - [ ] Action: _____________________
 
-#### ENGINE 05A — Insight Distiller
+#### ENGINE 04B — Insight Distiller
 - [ ] Are insights surviving verification? ____%
 - [ ] Any forced thesis rewrites? ____
 - [ ] Target: >80% insight survival, 0 thesis rewrites
@@ -171,6 +171,33 @@ Review from `model_health_log.md` + individual engine outputs:
 - [ ] Weekly memos completed: ____ (target: 4)
 - [ ] 6-dimension scan compliance: ____%
 - [ ] Regime shifts captured: ____
+- [ ] Action: _____________________
+
+#### ENGINE 17 — TUESDAY STOCK AUDIT GENERATOR
+
+- [ ] Stock pools generated: ____ (target: 4 per month)
+- [ ] Primary pick verification pass rate: ____%
+- [ ] Backup picks needed: ____ (lower = better selection quality)
+- [ ] Fit score average: ____ (target ≥7)
+- [ ] Recency compliance: ____% EXACT (target ≥75%)
+- [ ] Action: _____________________
+
+#### ENGINE 18 — WEEKLY ARC PLANNER
+
+- [ ] Weekly briefs generated: ____ (target: 4)
+- [ ] Episode execution alignment: ____%
+- [ ] ENGINE 19 overrides this month: ____ (target ≤2)
+- [ ] Curriculum coherence score: ____ (target ≥80%)
+- [ ] Ideas retained (not killed): ____%
+- [ ] Action: _____________________
+
+#### ENGINE 19 — MONTHLY ARC PLANNER
+
+- [ ] Monthly arc plan completed: ____ (target: 1)
+- [ ] Season theme clarity: ____ (1-10)
+- [ ] Weekly episode integration: ____%
+- [ ] Idea backlog health: ____ ideas in queue
+- [ ] Idea decay rate: ____% (target <30% unused after 12wks)
 - [ ] Action: _____________________
 
 ### Engine Suspension Decisions:

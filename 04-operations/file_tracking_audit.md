@@ -16,7 +16,7 @@
 | **04-operations/model_health_log.md** | ✅ TRACKED | Weekly + Monthly | All engines | Weekly + Monthly checklists |
 | **04-operations/market_correspondent_log.md** | ✅ TRACKED | Per MC post | ENGINE 15 | Weekly checklist |
 | **04-operations/high_signal_readers.md** | ✅ TRACKED | Weekly | Comment routing | Weekly checklist (NEW) |
-| **04-operations/framework_performance.md** | ⚠️ PARTIAL | Monthly | ENGINE 08 | ❌ NOT IN MONTHLY CHECKLIST |
+| **04-operations/framework_performance.md** | ⚠️ PARTIAL | Monthly | ENGINE 08 (via synthesis note) | ❌ NOT IN MONTHLY CHECKLIST |
 | **04-operations/idea_backlog.md** | ⚠️ PARTIAL | Weekly | Idea Kill Zone | ❌ NOT IN WEEKLY CHECKLIST |
 | **04-operations/pipeline_map.md** | ✅ TRACKED | On pipeline changes | Visual reference | Master orchestration |
 | **04-operations/pre_publication_quality_gate.md** | ✅ TRACKED | Before every post | ENGINE 09 output | Daily checklist |
@@ -126,7 +126,7 @@ If new framework introduced this week:
 
 - [ ] Add to `frameworks_index.md`
 - [ ] Add to `framework_performance.md` as UNTESTED
-- [ ] Tag framework in relevant engines (05A, 08)
+- [ ] Tag framework in relevant engines (04B, 08)
 
 If framework retired:
 

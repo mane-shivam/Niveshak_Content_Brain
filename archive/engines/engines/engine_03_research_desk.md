@@ -8,7 +8,7 @@
 |------|-------|--------|
 | 1. Validation | Perplexity Pro (Research Mode) | https://www.perplexity.ai/search/validate-all-financial-data-ac-QHWhLz72QE.ORX06I0upag |
 | 2. Deep Research | Gemini DR | https://gemini.google.com/app/276149c16bcf2ff6 |
-| 3. Context Research | ChatGPT DR | https://chatgpt.com/c/696e6376-94e4-8323-945a-4617d031f5cc |
+| 3. Context Research | ChatGPT DR | https://chatgpt.com/c/696e6376-94e4-8323-9405-4617d031f5cc |
 
 ---
 

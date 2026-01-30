@@ -73,7 +73,7 @@ working capital absorbs growth.
 
 Recent Indian surveys and filings show receivable cycles lengthening across auto components, industrial supply chains, and export-linked manufacturing, with cycle lengths approaching triple digits in parts of the MSME ecosystem (MSME Sampark Survey, Q2 FY25).
 
-At the index level, profit growth has narrowed sharply. Nifty 500 aggregate PAT contracted **4.1 percent year-on-year in Q2 FY25** (NSE filings). Only **23 of the 50** Nifty constituents reported profit growth in the same quarter.
+At the index level, profit growth has narrowed sharply. Nifty 500 aggregate PAT contracted **4.A percent year-on-year in Q2 FY25** (NSE filings). Only **23 of the 50** Nifty constituents reported profit growth in the same quarter.
 
 The signal is not recession. It is **quality dispersion**.
 

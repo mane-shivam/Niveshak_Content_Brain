@@ -41,7 +41,7 @@ ADAPT:
 OUTPUT: Platform-ready content
 ```
 
-**Files to Attach**: `niveshak_bible.md`, platform rules file, **Polished Draft (Engine 04.1 Output)**
+**Files to Attach**: `niveshak_bible.md`, platform rules file, **Polished Draft (Engine 04A Output)**
 
 **Output**: Adapted content maintaining voice
 

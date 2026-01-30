@@ -33,6 +33,17 @@
 - [ ] Review kill reasons (data / thesis / voice)
 - [ ] Healthy kill rate: 10-20% of ideas (too low = standards slipping)
 
+### ENGINE 18 — Weekly Arc Planning (for NEXT week)
+
+- [ ] Review this week's ENGINE 18 brief execution
+  - [ ] Did Sunday/Tuesday/Friday posts align with weekly episode plan?
+  - [ ] Any overrides to ENGINE 19's monthly plan? (log reason)
+- [ ] **Trigger ENGINE 18** for next week's episode design
+  - [ ] Attach: ENGINE 19 monthly arc, this week's execution log, signals brief
+- [ ] **Trigger ENGINE 17** for next week's Tuesday picks
+  - [ ] Attach: ENGINE 18's weekly brief, protected insights
+- [ ] Route ENGINE 17 output to ENGINE 05 for verification
+
 ---
 
 ## 🟡 WEEKLY SYSTEM 2 — MARKET CORRESPONDENT SYNTHESIS
@@ -251,7 +262,7 @@ Suspend specific engines if:
 - [ ] **ENGINE 01** — Signal quality <60% structural
 - [ ] **ENGINE 05** — Wrong data passed verification 2+ times
 - [ ] **ENGINE 07** — Approval rate >80% (too lenient)
-- [ ] **ENGINE 08** — New data introduced 2+ times
+- [ ] **ENGINE 08** — New data introduced 2+ times OR meta text leaked into final draft OR voice degrades to institutional dead tone 2+ times
 - [ ] **ENGINE 09** — AI-tells escaped 2+ times
 - [ ] **ENGINE 15** — Frequency >3/week OR prediction language OR insight degradation
 

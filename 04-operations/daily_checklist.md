@@ -41,6 +41,13 @@
 
 ### If Today = Tuesday (Earnings Audit)
 
+**Stock Selection (from Planning Layer):**
+
+- [ ] **ENGINE 17** — Verify Tuesday stock pick from `stock_picks_verified_ENGINE17.md`
+  - [ ] Pick was generated from weekly brief (ENGINE 18)
+  - [ ] Pick was verified by ENGINE 05
+  - [ ] If pick failed verification → use BACKUP from ENGINE 17 pool
+
 **Run Full Pipeline:**
 
 - [ ] **ENGINE 03** — Gemini Deep Research (attach Bible + earnings calendar)
@@ -52,7 +59,7 @@
   - [ ] If REJECT (data) → **ENGINE 06** → **ENGINE 05** → **ENGINE 07**
   - [ ] If REJECT (structural) → **ENGINE 08** rewrite → **ENGINE 07**
   - [ ] Loop until APPROVE
-- [ ] **ENGINE 08** — Apex Synthesizer (attach approved packs)
+- [ ] **ENGINE 08** — Apex Synthesizer (attach ONLY: protected_insights.md, verified draft, Red Team PASS summary, clean drafts, Bible — NO meta, NO commentary)
 - [ ] **ENGINE 09** — Final Editorial Polish
 - [ ] **ENGINE 10** — Platform Adapter: Twitter
 - [ ] **ENGINE 11** — Platform Adapter: LinkedIn

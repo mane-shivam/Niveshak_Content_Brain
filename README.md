@@ -15,7 +15,7 @@ This is **a deterministic, audit-safe institutional research operating system** 
 **Niveshak** is India's most disciplined equity research platform. We publish forensic, regime-aware analysis for serious retail investors, professionals, and institutions who reject hype and demand intellectual rigor.
 
 This repository encodes:
-- **16 coordinated AI engines** with complete separation of concerns
+- **19 coordinated AI engines** with complete separation of concerns
 - **3 production streams** (Core Content, Real-Time Obs, Strategy Desk)
 - **4-layer signal intelligence** feeding all engines
 - **Daily/weekly/monthly orchestration** with closed feedback loops
@@ -41,6 +41,17 @@ Day-by-day operational guide with exact protocols
 **That's it. Those 3 files contain the complete system.**
 
 ---
+
+## 🔴 CONSTITUTIONAL PRINCIPLES (NON-NEGOTIABLE)
+
+These 6 rules cannot be overridden by any engine or process:
+
+1. **Human Oversight is second only to Bible** — ENGINE 13.A has veto power at 3 checkpoints
+2. **No publish without 13.A Checkpoint 2** — Pre-publish sign-off is MANDATORY
+3. **Red Team veto cannot be bypassed** — ENGINE 07 KILL verdict is final
+4. **Apex has zero data authority** — ENGINE 08 may only control narrative, never add facts
+5. **Platform adapters are transformation-only** — No new insights may be created in distribution
+6. **Protected insights are constitutional** — Once ENGINE 04B locks thesis/insights, no downstream engine may alter them
 
 ## 🏗️ SYSTEM ARCHITECTURE
 
@@ -82,7 +93,7 @@ Crowd-sourced alpha feed updated by ENGINE 14, 15
 
 ---
 
-## 🤖 THE 16 ENGINES
+## 🤖 THE 19 ENGINES
 
 ### CORE PRODUCTION (01-09)
 
@@ -95,7 +106,7 @@ Crowd-sourced alpha feed updated by ENGINE 14, 15
 | 05 | **Cross-Verification** | Claude Sonnet 4.5 | **BLOCKING** data quality gate |
 | 06 | **Controlled Patch Mode** | Claude Sonnet 4.5 | Surgical repair (no rewrite) |
 | 07 | **Red Team** | Claude Sonnet 4.5 | **ABSOLUTE VETO** intellectual gate |
-| 08 | **Apex Synthesizer** | Claude Sonnet 3.7 | Chief Strategist / Final Author |
+| 08 | **Apex Synthesizer** | Claude Opus 4.5 | Chief Strategist / Final Author (WRITE FROM SCRATCH) |
 | 09 | **Final Editorial Polish** | Claude Sonnet 4.5 | Publication gate (editing only) |
 
 ### DISTRIBUTION (10-13)
@@ -114,6 +125,14 @@ Crowd-sourced alpha feed updated by ENGINE 14, 15
 | 14 | **Comment & Community Intelligence** | ChatGPT 5.2 | Post-publication engagement |
 | 15 | **Market Correspondent** | Grok Pro → ChatGPT 5.2 | Real-time observation (max 3/week) |
 | 16 | **Weekly Market Intelligence** | ChatGPT 5.2 | Independent weekly regime pulse |
+
+### PLANNING & CURRICULUM (17-19)
+
+| ID | Engine | Model | Authority |
+|----|--------|-------|-----------|
+| 17 | **Tuesday Stock Audit Generator** | ChatGPT 5.2 | Stock selection for Tuesday audits |
+| 18 | **Weekly Arc Planner** | ChatGPT 5.2 | Weekly episode planning (can override 19) |
+| 19 | **Monthly Arc Planner** | ChatGPT 5.2 | Monthly curriculum & season design |
 
 **Full specifications**: See [`02-engines/`](02-engines/) folder
 

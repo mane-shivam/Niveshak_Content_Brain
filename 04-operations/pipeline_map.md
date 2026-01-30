@@ -8,6 +8,29 @@ This document defines the **complete routing, authority chain, loop rules, and q
 
 ---
 
+## 🔵 PLANNING LAYER (UPSTREAM OF PRODUCTION)
+
+```
+ENGINE 19 — MONTHLY ARC PLANNER (Season Theme)
+        ↓
+ENGINE 18 — WEEKLY ARC PLANNER (Episode Design) [CAN OVERRIDE 19]
+        ↓
+ENGINE 17 — TUESDAY STOCK AUDIT GENERATOR (Pick Selection)
+        ↓
+ENGINE 05 — CROSS VERIFICATION (Stock Pick Validation)
+        ↓
+        → FEEDS INTO PRODUCTION PIPELINE
+```
+
+**Planning Layer Rules:**
+- ENGINE 19 runs monthly → sets season curriculum
+- ENGINE 18 runs weekly → designs Sun/Tue/Fri episodes
+- ENGINE 18 may override 19 for urgent topics (max 2/month)
+- ENGINE 17 generates Tuesday stock picks from weekly brief
+- ENGINE 17 picks MUST pass ENGINE 05 before production
+
+---
+
 ## 🔴 CANONICAL PIPELINE FLOW
 
 ```
@@ -19,9 +42,9 @@ ENGINE 03 — GEMINI DEEP RESEARCH
         ↓
 ENGINE 04 — CHATGPT DEEP RESEARCH
         ↓
-🔴 ENGINE 04.1 — DRAFT GENERATOR (MULTI-EXAMPLE MODE)
+🔴 ENGINE 04A — DRAFT GENERATOR (MULTI-EXAMPLE MODE)
         ↓
-🔴 ENGINE 05A — INSIGHT DISTILLER (LOCK THESIS + INSIGHTS)
+🔴 ENGINE 04B — INSIGHT DISTILLER (LOCK THESIS + INSIGHTS)
         ↓
 ENGINE 05 — CROSS VERIFICATION (JUDGE)
         ↓
@@ -41,20 +64,30 @@ ENGINE 05 — RE-VERIFY ─────────────┘
         ↓
 🔴 ENGINE 08 — APEX SYNTHESIZER (FINAL AUTHOR)
         ↓
+★ ENGINE 13.A CHECKPOINT 1 (POST-APEX INTEGRITY) ★
+        ↓
 🔴 ENGINE 09 — FINAL WRITING POLISH
         ↓
 ENGINE 10 / 11 / 12 — PLATFORM ADAPTORS
         ↓
 ENGINE 13 — VISUAL INTELLIGENCE
         ↓
+★ ENGINE 13.A CHECKPOINT 2 (PRE-PUBLISH) ★ — MANDATORY
+        ↓
+PUBLISH
+        ↓
 ENGINE 14 — COMMENT ENGINE
+        ↓
+★ ENGINE 13.A CHECKPOINT 3 (48HR POST-PUBLISH) ★
+        ↓
+INTELLIGENCE → ENGINE 01 (LOOP)
 ```
 
 ---
 
 ## 🔒 AUTHORITY CHAIN (PREVENTS DRIFT & CHAOS)
 
-### 🔹 ENGINE 04.1 — DRAFT GENERATOR
+### 🔹 ENGINE 04A — DRAFT GENERATOR
 
 **Authority:** LOW
 
@@ -72,7 +105,7 @@ ENGINE 14 — COMMENT ENGINE
 
 ---
 
-### 🔹 ENGINE 05A — INSIGHT DISTILLER
+### 🔹 ENGINE 04B — INSIGHT DISTILLER
 
 **Authority:** VERY HIGH (CONSTITUTIONAL)
 
@@ -175,27 +208,48 @@ ENGINE 14 — COMMENT ENGINE
 
 ### 🔹 ENGINE 08 — APEX SYNTHESIZER
 
-**Authority:** FINAL AUTHOR (Narrative omnipotence, zero data authority)
+**Authority:** FINAL AUTHOR (Narrative omnipotence, ZERO data authority)
+
+**Core Mode:** WRITE FROM SCRATCH (not merge, not patch)
 
 **Can:**
-- Merge multiple drafts
-- Rewrite structure
-- Rewrite flow
-- Rewrite narrative
-- Improve teaching
-- Select best examples from pool
+- Write a brand new post from scratch
+- Ignore all existing structure
+- Merge best insights, analogies, mechanisms from all drafts
+- Architect final narrative and teaching arc
+- Select best examples from verified pool
 
 **Cannot:**
 - Invent data
-- Fix verification issues
-- Delete protected insights
+- Change thesis (wording must be identical)
+- Change protected insights
 - Change killer metric
+- Remove falsification logic
+- Fix verification issues
 
-**Receives ONLY:** Red-Team-approved drafts
+**🔴 INPUT SANITATION RULE (CRITICAL):**
+
+Must receive ONLY clean inputs:
+- `protected_insights.md` (from ENGINE 04B)
+- Final Verified Draft (from ENGINE 05)
+- Red Team PASS verdict (summary only, NO commentary)
+- Clean alternative drafts (Gemini, ChatGPT, Patch)
+- `niveshak_bible.md`
+
+Must NOT receive:
+- Red Team commentary blocks
+- Patch notes
+- Instructional notes
+- Meta-analysis
+- Internal flags
+
+**If meta or scaffolding text present → ABORT RUN**
+
+**Voice Target:** Bloomberg Intelligence primary, Business Standard clarity, Groww smoothness. Personality: 7/10.
 
 **Creates files:**
 - `master_draft_vfinal.md`
-- `insight_map.md` (insight → paragraph → example mapping)
+- Internal Synthesis Note (NOT published)
 
 ---
 
@@ -224,7 +278,7 @@ ENGINE 14 — COMMENT ENGINE
 
 ### 🔹 MULTI-EXAMPLE SAFETY LOOP
 
-**Because of ENGINE 04.1 + 05A:**
+**Because of ENGINE 04A + 04B:**
 
 Each insight always has:
 - 2 Tier-1 examples
@@ -283,12 +337,12 @@ ENGINE 05 RE-VERIFY
 
 ## 📋 FILE HANDOFF MAP
 
-### ENGINE 04.1 → 05A:
+### ENGINE 04A → 04B:
 - `draft_v0_placeholder.md`
-- `example_pool.md`
-- `thesis_insights.md`
+- `engine 04A output `
+- `engine 04A output `
 
-### ENGINE 05A → 05:
+### ENGINE 04B → 05:
 - `protected_insights.md` ⭐ CONSTITUTIONAL
 - `example_selection.md` ⭐ CONTROL SHEET
 - `draft_v1_curated.md`
@@ -308,7 +362,7 @@ ENGINE 05 RE-VERIFY
 
 ### ENGINE 08 → 09:
 - `master_draft_vfinal.md`
-- `insight_map.md`
+- Internal Synthesis Note (not published)
 
 ### ENGINE 09 → 10-12:
 - `final_publish_draft.md`
@@ -351,12 +405,12 @@ ENGINE 05 RE-VERIFY
 ```markdown
 ## MONTHLY ENGINE AUDIT
 
-### ENGINE 04.1 — Draft Generator
+### ENGINE 04A — Draft Generator
 - [ ] % examples rejected by verification: ____
 - [ ] Hallucination rate: ____
 - [ ] Target: <20% example rejection, 0% hallucination
 
-### ENGINE 05A — Insight Distiller
+### ENGINE 04B — Insight Distiller
 - [ ] Are insights surviving verification? ____%
 - [ ] Any forced thesis rewrites? ____
 - [ ] Target: >80% insight survival, 0 thesis rewrites
@@ -397,11 +451,11 @@ ENGINE 05 RE-VERIFY
 
 With this complete system:
 
-✅ **Protected insight layer** (05A constitutional authority)
-✅ **Multi-example safety net** (04.1 + 05A redundancy)
+✅ **Protected insight layer** (04B constitutional authority)
+✅ **Multi-example safety net** (04A + 04B redundancy)
 ✅ **Verification that cannot kill thesis** (judge not author)
 ✅ **Patch engine that preserves essence** (surgeon not rewriter)
-✅ **Apex that becomes real editor + storyteller** (multi-draft synthesis)
+✅ **Apex that becomes real editor + storyteller** (write-from-scratch synthesis)
 ✅ **Single final polish layer** (ENGINE 09, story-preserving)
 ✅ **Clean authority and routing** (no ambiguity)
 ✅ **Drift prevention** (weekly + monthly governance)
@@ -415,7 +469,7 @@ With this complete system:
 - Hedge-fund-grade research pipeline
 - Editorial-grade storytelling system
 - Automation-safe architecture
-- Bloomberg × Michael Lewis hybrid voice
+- Bloomberg × Business Standard × Groww voice (personality 7/10)
 - FT Alphaville / Odd Lots operational standard
 
 ---

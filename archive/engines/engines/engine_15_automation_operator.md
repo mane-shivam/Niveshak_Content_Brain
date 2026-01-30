@@ -210,7 +210,7 @@ You must run ALL engines in this locked order:
    - **BLOCK**: Do NOT proceed to E03 until validation passes  
 3. Engine 03 — Research Desk  
 4. Engine 04 — Apex Synthesizer  
-4.1. **Engine 04.1 — Final Polishing** (Claude) — Clarity, rhythm, human voice. Thread: https://claude.ai/chat/d6d6f36b-45bc-443b-9546-c844e53ee40a  
+4.A. **Engine 04A — Final Polishing** (Claude) — Clarity, rhythm, human voice. Thread: https://claude.ai/chat/d6d6f36b-45bc-443b-9546-c844e53ee40a  
 5. Engine 05 — Sunday Brief / Tuesday Audit / Friday Macro  
 6. Engine 06 — Tuesday Audit (if applicable)  
 7. Engine 07 — Friday Macro (if applicable)  

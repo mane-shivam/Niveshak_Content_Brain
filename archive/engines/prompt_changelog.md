@@ -53,7 +53,7 @@
 - [x] All 14 engine files exist and are numbered correctly
 - [x] OS Document updated with new pipeline
 - [x] Daily Checklist updated with new engine numbers and flow
-- [x] Downstream engines (Red Team, Adapter, Visuals, Weekly Digest) now require Polished Draft (Engine 04.1) input
+- [x] Downstream engines (Red Team, Adapter, Visuals, Weekly Digest) now require Polished Draft (Engine 04A) input
 
 ---
 

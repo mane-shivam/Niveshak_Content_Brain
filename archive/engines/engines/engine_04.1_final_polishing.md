@@ -1,4 +1,4 @@
-# ENGINE 04.1: FINAL POLISHING (POST-APEX)
+# ENGINE 04.A: FINAL POLISHING (POST-APEX)
 
 **Model**: Claude (Sonnet/Opus)  
 **Thread Link**: https://claude.ai/chat/d6d6f36b-45bc-443b-9546-c844e53ee40a  
@@ -11,7 +11,7 @@
 This engine runs AFTER Engine 04 (Apex Synthesizer) and BEFORE Engine 09 (Red Team).
 
 ```
-Engine 04 (Apex Synthesizer) → Engine 04.1 (Final Polishing) → Engine 09 (Red Team)
+Engine 04 (Apex Synthesizer) → Engine 04A (Final Polishing) → Engine 09 (Red Team)
 ```
 
 ---
